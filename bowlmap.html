@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BowlMap — Real Food, Real Shanghai</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+<style>
+:root{--ink:#1a1208;--paper:#f5f0e8;--red:#c0392b;--gold:#b8860b;--warm:#ede5d3;--muted:#7a6e60;--border:#d4c9b0;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;font-weight:300;height:100vh;overflow:hidden;display:flex;flex-direction:column;}
+header{height:52px;border-bottom:2px solid var(--ink);display:flex;align-items:center;justify-content:space-between;padding:0 1.2rem;background:var(--paper);z-index:200;flex-shrink:0;}
+.logo{font-family:"Playfair Display",serif;font-size:1.4rem;font-weight:700;letter-spacing:-.02em;}
+.logo span{color:var(--red);}
+.city-badge{font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;border:1px solid var(--border);padding:.25rem .7rem;color:var(--muted);}
+.header-count{font-size:.72rem;color:var(--muted);}
+.header-right{display:flex;align-items:center;gap:1rem;}
+.app{display:flex;flex:1;overflow:hidden;}
+.sidebar{width:380px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid var(--border);overflow:hidden;background:var(--paper);}
+.sidebar-top{padding:.8rem 1rem;border-bottom:1px solid var(--border);flex-shrink:0;}
+.filter-chips{display:flex;flex-wrap:wrap;gap:.35rem;}
+.chip{padding:.25rem .7rem;border:1px solid var(--border);font-size:.7rem;cursor:pointer;background:transparent;color:var(--muted);font-family:"DM Sans",sans-serif;transition:all .12s;}
+.chip:hover,.chip.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+.restaurant-list{flex:1;overflow-y:auto;}
+.r-item{padding:1rem 1rem .8rem;border-bottom:1px solid var(--border);cursor:pointer;transition:background .1s;}
+.r-item:hover{background:var(--warm);}
+.r-item.active{background:var(--warm);border-left:3px solid var(--red);}
+.r-zh{font-family:"Noto Serif SC",serif;font-size:.78rem;color:var(--muted);margin-bottom:.15rem;}
+.r-en{font-family:"Playfair Display",serif;font-size:1rem;font-weight:700;line-height:1.2;margin-bottom:.35rem;}
+.r-meta{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;}
+.r-tag{font-size:.62rem;padding:.15rem .5rem;border:1px solid var(--border);color:var(--muted);letter-spacing:.06em;text-transform:uppercase;}
+.r-price{font-size:.7rem;color:var(--ink);font-weight:500;}
+.r-desc{font-size:.78rem;color:var(--muted);line-height:1.5;margin-top:.4rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.map-container{flex:1;position:relative;}
+#map{width:100%;height:100%;}
+.map-marker{width:24px;height:24px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);cursor:pointer;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,.35);transition:transform .15s;background:#1a1208;}
+.map-marker:hover{transform:rotate(-45deg) scale(1.25);}
+.map-marker.star3{background:var(--red);}
+.map-marker.star2{background:var(--gold);}
+.mapboxgl-popup-content{background:var(--ink)!important;color:var(--paper)!important;border-radius:0!important;padding:1rem 1.2rem!important;max-width:240px;box-shadow:0 4px 20px rgba(0,0,0,.4)!important;}
+.mapboxgl-popup-tip{border-top-color:var(--ink)!important;}
+.popup-zh{font-family:"Noto Serif SC",serif;font-size:.72rem;opacity:.5;margin-bottom:.2rem;}
+.popup-en{font-family:"Playfair Display",serif;font-size:.95rem;font-weight:700;margin-bottom:.4rem;}
+.popup-meta{font-size:.7rem;opacity:.6;margin-bottom:.6rem;}
+.popup-btn{width:100%;padding:.45rem;background:var(--red);color:white;border:none;font-family:"DM Sans",sans-serif;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;}
+.detail-panel{position:absolute;right:0;top:0;bottom:0;width:320px;background:var(--paper);border-left:1px solid var(--border);overflow-y:auto;transform:translateX(100%);transition:transform .25s ease;z-index:100;}
+.detail-panel.open{transform:translateX(0);}
+.panel-close{position:absolute;top:1rem;right:1rem;background:none;border:1px solid var(--border);width:28px;height:28px;cursor:pointer;font-size:.8rem;color:var(--muted);}
+.panel-close:hover{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+.panel-inner{padding:1.4rem;}
+.panel-zh{font-family:"Noto Serif SC",serif;font-size:.85rem;color:var(--muted);margin-bottom:.2rem;}
+.panel-en{font-family:"Playfair Display",serif;font-size:1.4rem;font-weight:700;line-height:1.15;margin-bottom:.6rem;}
+.panel-badges{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:1rem;}
+.badge{font-size:.62rem;padding:.2rem .6rem;border:1px solid var(--border);color:var(--muted);letter-spacing:.08em;text-transform:uppercase;}
+.badge.red{border-color:var(--red);color:var(--red);}
+.badge.gold{border-color:var(--gold);color:var(--gold);}
+.panel-desc{font-size:.85rem;color:var(--muted);line-height:1.65;margin-bottom:1.2rem;padding-bottom:1.2rem;border-bottom:1px solid var(--border);}
+.sec-title{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:.7rem;display:flex;align-items:center;gap:.5rem;}
+.sec-title::after{content:"";flex:1;height:1px;background:var(--border);}
+.dish-row{display:flex;justify-content:space-between;align-items:baseline;padding:.45rem 0;border-bottom:1px dotted var(--border);gap:.8rem;}
+.dish-row:last-child{border-bottom:none;}
+.dish-en{font-size:.82rem;font-weight:500;}
+.dish-zh{font-family:"Noto Serif SC",serif;font-size:.8rem;color:var(--muted);flex-shrink:0;}
+.order-btn{width:100%;margin:.8rem 0 1.2rem;padding:.65rem;background:var(--ink);color:var(--paper);border:none;font-family:"DM Sans",sans-serif;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;}
+.order-btn:hover{background:var(--red);}
+.tip-row{font-size:.8rem;padding:.4rem 0;border-bottom:1px dotted var(--border);line-height:1.45;display:flex;gap:.5rem;color:var(--muted);}
+.tip-row:last-child{border-bottom:none;}
+.comm-bar{position:absolute;bottom:1rem;left:50%;transform:translateX(-50%);z-index:50;display:flex;gap:.4rem;background:var(--ink);padding:.5rem .8rem;flex-wrap:wrap;justify-content:center;max-width:600px;}
+.comm-pill{padding:.3rem .7rem;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);color:var(--paper);font-size:.65rem;cursor:pointer;transition:background .12s;font-family:"DM Sans",sans-serif;}
+.comm-pill:hover{background:var(--red);border-color:var(--red);}
+.comm-label{font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.35);align-self:center;white-space:nowrap;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(26,18,8,.82);z-index:1000;align-items:center;justify-content:center;padding:1rem;}
+.modal-overlay.open{display:flex;}
+.modal{background:var(--ink);color:var(--paper);max-width:400px;width:100%;padding:2rem;position:relative;}
+.modal-x{position:absolute;top:.8rem;right:.8rem;background:none;border:1px solid rgba(255,255,255,.2);color:var(--paper);width:28px;height:28px;cursor:pointer;font-size:.8rem;}
+.modal-hint{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;opacity:.4;margin-bottom:.4rem;}
+.modal-title{font-family:"Playfair Display",serif;font-size:1.2rem;margin-bottom:1rem;}
+.modal-hr{border:none;border-top:1px solid rgba(255,255,255,.12);margin:.8rem 0;}
+.modal-zh-lbl{font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;opacity:.4;margin-bottom:.5rem;}
+.modal-zh{font-family:"Noto Serif SC",serif;font-size:1.35rem;color:#f5c842;line-height:1.6;margin-bottom:.8rem;}
+.modal-dish{display:flex;justify-content:space-between;padding:.4rem 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:.8rem;}
+.modal-dish:last-child{border-bottom:none;}
+.modal-dish-zh{font-family:"Noto Serif SC",serif;color:#f5c842;}
+.modal-copy{margin-top:1.2rem;width:100%;padding:.75rem;background:var(--red);color:white;border:none;font-family:"DM Sans",sans-serif;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🍜 Bowl<span>Map</span></div>
+  <div class="header-right">
+    <span class="city-badge">Shanghai</span>
+    <span class="header-count" id="hCount">48 restaurants</span>
+  </div>
+</header>
+<div class="app">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <div class="filter-chips">
+        <button class="chip active" onclick="filterBy('all',this)">All</button>
+        <button class="chip" onclick="filterBy('shanghai',this)">Shanghai</button>
+        <button class="chip" onclick="filterBy('hotpot',this)">Hotpot</button>
+        <button class="chip" onclick="filterBy('western',this)">Western</button>
+        <button class="chip" onclick="filterBy('japanese',this)">Japanese</button>
+        <button class="chip" onclick="filterBy('snacks',this)">Snacks</button>
+        <button class="chip" onclick="filterBy('chinese',this)">Chinese</button>
+        <button class="chip" onclick="filterBy('foreign',this)">Intl</button>
+      </div>
+    </div>
+    <div class="restaurant-list" id="rList"></div>
+  </div>
+  <div class="map-container">
+    <div id="map"></div>
+    <div class="comm-bar">
+      <span class="comm-label">Show to staff →</span>
+      <button class="comm-pill" onclick="cp('我不吃辣，请不要放辣椒。',this)">🌶 No spicy</button>
+      <button class="comm-pill" onclick="cp('我是素食者，不吃肉、鱼和鸡蛋。',this)">🥗 Vegetarian</button>
+      <button class="comm-pill" onclick="cp('我对花生过敏。',this)">⚠️ Peanut allergy</button>
+      <button class="comm-pill" onclick="cp('请问可以用Visa或Mastercard付款吗？',this)">💳 Card OK?</button>
+      <button class="comm-pill" onclick="cp('请问有英文菜单吗？',this)">📋 English menu?</button>
+      <button class="comm-pill" onclick="cp('我不吃猪肉。',this)">🐷 No pork</button>
+    </div>
+    <div class="detail-panel" id="dPanel">
+      <button class="panel-close" onclick="closePanel()">✕</button>
+      <div class="panel-inner" id="dInner"></div>
+    </div>
+  </div>
+</div>
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal">
+    <button class="modal-x" onclick="document.getElementById('modal').classList.remove('open')">✕</button>
+    <div class="modal-hint">Show this screen to your server</div>
+    <div class="modal-title" id="mTitle"></div>
+    <hr class="modal-hr">
+    <div class="modal-zh-lbl">Point to these dishes</div>
+    <div class="modal-zh" id="mZh"></div>
+    <div id="mDishes"></div>
+    <button class="modal-copy" onclick="copyModal()">Copy Chinese text</button>
+  </div>
+</div>
+<script>
+const restaurants = [
+  { id:1, zh:"外滩家宴·上海菜", en:"Waitan Jiayan", cuisine:"shanghai", cuisineLabel:"Shanghai cuisine", price:"¥100–150", stars:3, lat:31.2409, lng:121.4910, address:"Bund, Nanjing Road", desc:"Classic Shanghai home-style cooking with Bund views — great value. Locals return for the braised pork and glazed ribs.", dishes:[{en:"Lane stir-fried glutinous rice balls",zh:"弄堂炒圆子"},{en:"Osmanthus glazed ribs",zh:"桂花酱排骨"},{en:"Red-braised pork belly",zh:"红烧肉"},{en:"Sweet & sour Mandarin fish",zh:"松鼠桂鱼"}], tips:["Go for dinner for Bund views","Say 靠窗的位置 for window seat","Book weekends"] },
+  { id:2, zh:"莱莱小笼", en:"Lailai Xiaolongbao", cuisine:"shanghai", cuisineLabel:"Dim Sum", price:"¥40–60", stars:3, lat:31.2307, lng:121.4737, address:"506 Tianjin Rd", desc:"Michelin Bib Gourmand. Hand-made dumplings by aunties. Go 10am or 3pm to avoid peak queues.", dishes:[{en:"Crab roe & pork xiaolongbao (8 pcs)",zh:"蟹粉鲜肉小笼 ¥46"},{en:"Pure crab roe wonton (10 pcs)",zh:"蟹粉小馄饨 ¥30"}], tips:["Opens 8–14 & 15–20","Ask for ginger vinegar: 姜丝醋","20–40min queue at peak"] },
+  { id:3, zh:"沈大成", en:"Shen Da Cheng", cuisine:"snacks", cuisineLabel:"Shanghai snacks", price:"¥10–30", stars:3, lat:31.2362, lng:121.4737, address:"636 East Nanjing Rd", desc:"Century-old snack shop on Nanjing Road. The egg yolk pork floss rice ball is legendary.", dishes:[{en:"Egg yolk & pork floss rice ball",zh:"蛋黄肉松青团 ¥8"},{en:"Sweet rice cake roll",zh:"条头糕 ¥4"}], tips:["Great breakfast stop","Queue moves fast (5–10 min)","On Nanjing Road walking street"] },
+  { id:4, zh:"鲜得来排骨年糕", en:"Xiandélai Pork Chop Rice Cake", cuisine:"snacks", cuisineLabel:"Shanghai street food", price:"¥20–40", stars:2, lat:31.2283, lng:121.4720, address:"Huanghe Road area", desc:"Shanghai street food legend. Crispy pork chop meets chewy rice cake, drenched in sweet-spicy sauce.", dishes:[{en:"Crispy fried pork chop",zh:"炸猪排"},{en:"Chewy rice cake",zh:"年糕"}], tips:["Order both — they're a combo","The house spicy sauce is the secret"] },
+  { id:5, zh:"大壶春生煎", en:"Dahuchun Pan-fried Buns", cuisine:"snacks", cuisineLabel:"Pan-fried buns", price:"¥20–40", stars:2, lat:31.2290, lng:121.4725, address:"Huanghe Road area", desc:"One of Shanghai's oldest pan-fried bun shops. Crispy golden bottom, juicy pork filling. Pair with curry beef soup.", dishes:[{en:"Pan-fried pork buns",zh:"生煎包"},{en:"Curry beef soup",zh:"咖喱牛肉汤"}], tips:["Bite the side first — hot soup inside","Made in batches — short wait for fresh ones"] },
+  { id:6, zh:"凯司令", en:"Kaisiling Bakery", cuisine:"snacks", cuisineLabel:"Historic bakery", price:"¥30–60", stars:2, lat:31.2298, lng:121.4661, address:"West Nanjing Road", desc:"Historic Shanghai bakery since 1928. The whipped cream chestnut cake is an icon.", dishes:[{en:"Whipped cream chestnut cake",zh:"掼奶油栗子蛋"}], tips:["Worth visiting for the history alone","Small queue on weekends"] },
+  { id:7, zh:"虹口糕团食品厂", en:"Hongkou Rice Cake Shop", cuisine:"snacks", cuisineLabel:"Traditional rice cakes", price:"¥10–20", stars:2, lat:31.2610, lng:121.4872, address:"Hongkou District", desc:"Old-school rice cake shop. Fresh-made rice cake rolls with youtiao, pickled veg and pork floss.", dishes:[{en:"Rice cake roll",zh:"年糕团"}], tips:["Very local neighbourhood spot","Cash or WeChat Pay"] },
+  { id:8, zh:"第一食品商店", en:"No.1 Food Store", cuisine:"snacks", cuisineLabel:"Snacks & souvenirs", price:"¥20–100", stars:2, lat:31.2368, lng:121.4745, address:"720 East Nanjing Rd", desc:"Iconic state-run food store. The butterfly cookies are the go-to Shanghai souvenir.", dishes:[{en:"Butterfly cookies",zh:"蝴蝶酥 ¥29"},{en:"Butter shortbread cookies",zh:"牛油曲奇 ¥59.8"}], tips:["Ground floor best for snacks","Great for gifts to bring home"] },
+  { id:9, zh:"李百蟹·蟹黄面", en:"Li Baixie Crab Restaurant", cuisine:"shanghai", cuisineLabel:"Crab cuisine", price:"¥150–300", stars:2, lat:31.2402, lng:121.4905, address:"Bund, Yuyuan branch", desc:"Premium crab banquet with Bund views. Crab roe noodles are outstanding. Request a window seat.", dishes:[{en:"Crab roe noodles",zh:"蟹黄面"},{en:"Full crab banquet",zh:"蟹全宴"},{en:"Osmanthus wine dessert",zh:"桂花酒酿软酪"}], tips:["Ask for window seat: 我要靠窗的位置","Best Oct–Nov crab season","Reservation recommended"] },
+  { id:10, zh:"烧肉第九号", en:"Yakiniku No.9", cuisine:"japanese", cuisineLabel:"Japanese BBQ", price:"¥150–250", stars:3, lat:31.2199, lng:121.4688, address:"Multiple locations", desc:"Locals' top pick for Japanese BBQ. Exceptional value. The curry stone pot rice is unmissable.", dishes:[{en:"Premium beef cuts",zh:"精选牛肉"},{en:"Curry stone pot rice",zh:"咖喱石锅饭"}], tips:["Book 3+ days ahead on WeChat","Go hungry — portions generous"] },
+  { id:11, zh:"楼上火锅", en:"Lóushàng Hotpot", cuisine:"hotpot", cuisineLabel:"Upscale hotpot", price:"¥200–300", stars:2, lat:31.2251, lng:121.4737, address:"Check Dianping", desc:"Upscale hotpot with exceptional fish maw chicken broth. Great for a splurge.", dishes:[{en:"Fish maw chicken broth",zh:"花胶鸡锅底"}], tips:["Order the broth — it's the star","Good for groups of 4–6"] },
+  { id:12, zh:"铁屋", en:"Iron House Yakiniku", cuisine:"japanese", cuisineLabel:"Japanese BBQ", price:"¥200–350", stars:2, lat:31.2180, lng:121.4602, address:"Multiple locations", desc:"Considered the best Japanese BBQ in Shanghai by many locals. Premium cuts, self-grill.", dishes:[{en:"Premium beef (daily selection)",zh:"精选牛肉"}], tips:["You grill yourself","Book far in advance","Very popular — no walk-ins"] },
+  { id:13, zh:"老吉士", en:"Lao Jishi", cuisine:"shanghai", cuisineLabel:"Shanghai cuisine", price:"¥100–200", stars:2, lat:31.2155, lng:121.4528, address:"Tianping Road branch", desc:"Old-school Shanghai institution. Hard to book — a sign locals actually eat here.", dishes:[{en:"Red-braised pork belly",zh:"本帮红烧肉"}], tips:["Tianping Rd branch is the one","Queue at door for walk-ins","No English menu — pointing works"] },
+  { id:14, zh:"新荣记", en:"Xinrongji", cuisine:"chinese", cuisineLabel:"Zhejiang cuisine", price:"¥300–500", stars:2, lat:31.2418, lng:121.4887, address:"Near the Bund", desc:"One of Shanghai's most acclaimed restaurants. Exceptional Zhejiang cuisine — special occasion dining.", dishes:[{en:"Seasonal Zhejiang seafood",zh:"浙式海鲜"}], tips:["Book weeks in advance","Smart casual dress code"] },
+  { id:15, zh:"细记港九大排档", en:"Xiji HK Dai Pai Dong", cuisine:"chinese", cuisineLabel:"Hong Kong style", price:"¥80–150", stars:2, lat:31.2230, lng:121.4700, address:"Multiple locations", desc:"Lively HK-style open kitchen. Satisfying portions, great value, casual atmosphere.", dishes:[{en:"HK-style stir-fries",zh:"港式小炒"},{en:"Roast meats",zh:"烧腊"}], tips:["Loud and lively — embrace it","Point at other tables' dishes","Great for groups"] },
+  { id:16, zh:"Le Saleya Bar a Vin", en:"Le Saleya Wine Bar", cuisine:"western", cuisineLabel:"French wine bar", price:"¥150–250", stars:2, lat:31.2205, lng:121.4534, address:"570 Changle Rd, Lane 1", desc:"Charming French wine bar. The braised frog pasta is what everyone talks about.", dishes:[{en:"Braised frog with pasta",zh:"炖牛蛙配意面"},{en:"Fries with beef tongue",zh:"薯条牛舌"}], tips:["Book ahead for dinner","English-speaking staff","Changle Road — great area for the evening"] },
+  { id:17, zh:"福悦海鲜汤粉面", en:"Fuyue Seafood Noodle", cuisine:"chinese", cuisineLabel:"Fujian noodles", price:"¥50–100", stars:1, lat:31.2188, lng:121.4400, address:"59 Xuanhua Rd", desc:"Honest Fujian-style seafood noodle soup. Zero tourist pretension. Deeply savoury broth.", dishes:[{en:"Seafood soup noodles",zh:"海鲜汤粉面"}], tips:["Arrive before 12:30 for lunch","Genuine local experience"] },
+  { id:18, zh:"孔乙己", en:"Kong Yiji", cuisine:"chinese", cuisineLabel:"Shaoxing cuisine", price:"¥80–150", stars:1, lat:31.2257, lng:121.4700, address:"36 Xuegong St (Laoximen stn exit 7)", desc:"Named after Lu Xun's famous story. Authentic Shaoxing wine-culture cuisine.", dishes:[{en:"Spiced anise beans",zh:"茴香豆"},{en:"Shaoxing yellow wine snacks",zh:"绍兴黄酒小菜"}], tips:["Order Shaoxing yellow wine — essential","Literary decor, great for curious travellers"] },
+  { id:19, zh:"Cape Market 海角街市", en:"Cape Market", cuisine:"foreign", cuisineLabel:"Taiwanese", price:"¥100–200", stars:1, lat:31.2248, lng:121.4719, address:"Check Dianping", desc:"Creative Taiwanese restaurant. The stir-fried Want Want crackers dish sounds odd but tastes extraordinary.", dishes:[{en:"Stir-fried Want Want crackers",zh:"爆炒旺旺仙贝"}], tips:["Menu changes seasonally","Popular with young locals and expats"] },
+  { id:20, zh:"Cinta Blues 亲塔屋", en:"Cinta Blues", cuisine:"foreign", cuisineLabel:"Malaysian", price:"¥100–200", stars:1, lat:31.2230, lng:121.4589, address:"Check Dianping", desc:"Most authentic Malaysian restaurant in Shanghai. The Ipoh seafood river noodle is the signature.", dishes:[{en:"Ipoh seafood river noodle",zh:"怡保海鲜河粉"},{en:"Curry prawn with egg",zh:"咖喱蛋香基围虾"}], tips:["Staff used to English speakers","Brings back SE Asia memories"] },
+  { id:21, zh:"家康居酒屋", en:"Jiakang Izakaya", cuisine:"japanese", cuisineLabel:"Japanese izakaya", price:"¥100–200", stars:1, lat:31.2210, lng:121.4652, address:"Multiple locations", desc:"Cosy izakaya. The tsukemen dipping noodles have incredible chew. Roasted pigeon leg is memorable.", dishes:[{en:"Tsukemen dipping noodles",zh:"蘸面"},{en:"Roasted pigeon leg",zh:"烤鸽子腿"}], tips:["Order the tsukemen — that's the reason to come"] },
+  { id:22, zh:"O'mills", en:"O'mills", cuisine:"western", cuisineLabel:"Brunch", price:"¥80–150", stars:2, lat:31.2255, lng:121.4735, address:"Check Dianping", desc:"Shanghai's most reliable brunch spot. Locals recommend without hesitation.", dishes:[{en:"Weekend brunch set",zh:"周末早午餐"}], tips:["Arrive before 10:30 or after 13:00","English menu available"] },
+  { id:23, zh:"晟永兴", en:"Shengyongxing Roast Duck", cuisine:"chinese", cuisineLabel:"Michelin roast duck", price:"¥150–500", stars:3, lat:31.2402, lng:121.4887, address:"Bund branch recommended", desc:"Michelin-starred roast duck. Korean and international visitors rave. Caviar duck skin is the signature.", dishes:[{en:"Caviar duck skin",zh:"鱼子酱片皮鸭"},{en:"Tofu with Chinese toon",zh:"香椿豆腐"},{en:"Duck carcass soup",zh:"鸭架汤"}], tips:["Book at least a week ahead","The duck comes with a provenance card","Bund branch for views"] },
+  { id:24, zh:"德林酸菜鱼", en:"Delin Sauerkraut Fish", cuisine:"chinese", cuisineLabel:"Sichuan fish", price:"¥60–120", stars:2, lat:31.2280, lng:121.4680, address:"Check Dianping", desc:"Beloved sauerkraut fish. The tangy pickled cabbage broth is addictive. Pair with fried rice.", dishes:[{en:"Sauerkraut fish in broth",zh:"酸菜鱼"},{en:"Egg fried rice",zh:"蛋炒饭"}], tips:["Order medium spice if new to Sichuan","Ask for extra broth"] },
+  { id:25, zh:"遇外滩", en:"Yu Waitan", cuisine:"chinese", cuisineLabel:"Fujian cuisine", price:"¥200–400", stars:1, lat:31.2399, lng:121.4892, address:"Bund area", desc:"Top-tier Fujian cuisine at the Bund. Acclaimed for exceptional seafood and refined flavours.", dishes:[{en:"Fujian-style fresh seafood",zh:"闽式海鲜"}], tips:["Less famous than neighbours — easier to book","Ask staff for the day's fresh catch"] },
+  { id:26, zh:"白玉兰食品", en:"Baiyulan Food", cuisine:"snacks", cuisineLabel:"Shanghai snacks", price:"¥10–30", stars:1, lat:31.2300, lng:121.4700, address:"Neighbourhood shop", desc:"Neighbourhood institution for steamed pork buns and traditional pastries. Where grandparents shop.", dishes:[{en:"Steamed pork bun",zh:"大肉包"},{en:"Traditional Shanghai pastries",zh:"老式糕点"}], tips:["No tourist markup","Great contrast to Nanjing Road shops"] },
+  { id:27, zh:"四季民福", en:"Siji Minfu Peking Duck", cuisine:"chinese", cuisineLabel:"Peking Duck", price:"¥150–200", stars:2, lat:31.2399, lng:121.4887, address:"Multiple locations", desc:"Excellent Peking Duck chain beloved by foreign visitors. Crispy skin dipped in white sugar changes people.", dishes:[{en:"Roast Peking duck",zh:"烤鸭"},{en:"Duck carcass soup",zh:"鸭架"},{en:"Duck blood tofu",zh:"鸭血旺"}], tips:["Try skin with sugar first — sounds odd, tastes incredible","One duck feeds 2–3 comfortably","Duck blood tofu is mild and silky — try it"] },
+  { id:28, zh:"Tres Perros", en:"Tres Perros", cuisine:"western", cuisineLabel:"Spanish", price:"¥150–250", stars:2, lat:31.2190, lng:121.4590, address:"Check Dianping", desc:"Favourite Spanish restaurant of Shanghai's expat community. The spicy potatoes alone are worth the visit.", dishes:[{en:"Spicy potatoes (patatas bravas)",zh:"辣味土豆"},{en:"Spanish tapas",zh:"西班牙小食"}], tips:["English-speaking staff","Good wine list","Book weekend evenings ahead"] },
+  { id:29, zh:"Bella Napoli", en:"Bella Napoli", cuisine:"western", cuisineLabel:"Italian", price:"¥100–200", stars:2, lat:31.2192, lng:121.4560, address:"Check Dianping", desc:"Beloved Italian family restaurant. Expat families keep coming back for unpretentious home-cooking Italian.", dishes:[{en:"Neapolitan-style pizza",zh:"那不勒斯披萨"},{en:"Handmade pasta",zh:"手工意面"}], tips:["Good for families with children","More casual than most Italian restaurants in the city"] },
+  { id:30, zh:"Banana GG", en:"Banana GG", cuisine:"western", cuisineLabel:"Brunch", price:"¥100–180", stars:2, lat:31.2290, lng:121.4536, address:"65-4 Maoming North Rd", desc:"Mediterranean-vibe brunch cafe run by a foreign owner. Packed with expats on weekends.", dishes:[{en:"Eggs benedict",zh:"班尼迪蛋"},{en:"Black truffle tart shell",zh:"黑松露塔壳"},{en:"Pancakes with banana",zh:"香蕉松饼"}], tips:["English menu and staff — easy","Great natural light","Go weekdays to avoid weekend crowds"] },
+  { id:31, zh:"龙门阵茶屋", en:"Longmen Zhen Teahouse", cuisine:"chinese", cuisineLabel:"Modern Sichuan", price:"¥150–250", stars:2, lat:31.2220, lng:121.4660, address:"Check Dianping", desc:"Stylish modern Sichuan with dramatic teahouse interior. Top recommendation for foreign guests.", dishes:[{en:"Basil Drop cocktail",zh:"Basil Drop"},{en:"Modern Sichuan dishes",zh:"改良川菜"}], tips:["Stunning interior — guests always impressed","Check cocktail menu — China-inspired drinks","Perfect for first-time visitors to China"] },
+  { id:32, zh:"花马天堂", en:"Yunnan Heaven", cuisine:"chinese", cuisineLabel:"Yunnan cuisine", price:"¥100–200", stars:2, lat:31.2408, lng:121.4900, address:"Near the Bund", desc:"Atmospheric Yunnan restaurant near the Bund. Silk Road decor wows foreign guests every time.", dishes:[{en:"Yunnan wild mushroom dishes",zh:"云南野生菌菜"},{en:"Cross-bridge rice noodle",zh:"过桥米线"}], tips:["Interior design alone is worth visiting","Walk to the Bund afterwards — very close"] },
+  { id:33, zh:"朱雀茶室", en:"Zhuque Teahouse", cuisine:"chinese", cuisineLabel:"Cantonese + Chinese decor", price:"¥200–350", stars:2, lat:31.2250, lng:121.4750, address:"Check Dianping", desc:"Elaborate Chinese palace decor meets solid Cantonese cooking. Foreign guests love the theatricality.", dishes:[{en:"Claypot rice",zh:"煲仔饭"},{en:"Cantonese roast meats",zh:"粤式烧腊"}], tips:["The decor is the draw — bring your camera","Reservation required","Great for groups wanting a memorable atmosphere"] },
+  { id:34, zh:"Oha Eatery", en:"Oha Eatery", cuisine:"western", cuisineLabel:"Guizhou fusion", price:"¥300–450", stars:2, lat:31.2200, lng:121.4580, address:"Anfu Road", desc:"Creative Guizhou-Western fusion bistro on Anfu Road. Unique concept rarely seen outside China.", dishes:[{en:"Guizhou-fusion tasting menu",zh:"贵州特色融合菜"}], tips:["Walk Anfu Road before or after","Higher price point — save for a special evening"] },
+  { id:35, zh:"Alimentari Mulino", en:"Alimentari Mulino", cuisine:"western", cuisineLabel:"Italian", price:"¥150–300", stars:2, lat:31.2299, lng:121.4545, address:"4 Maoming North Rd, Lane 245", desc:"Italian restaurant with top marks from expats and locals. Bilingual staff, handmade pasta.", dishes:[{en:"Fresh handmade pasta",zh:"手工意面"},{en:"Daily specials board",zh:"今日特供"}], tips:["English menu, bilingual staff","Book for dinner","Three Shanghai locations"] },
+  { id:36, zh:"Money Shops", en:"Money Shops", cuisine:"western", cuisineLabel:"All-day Western", price:"¥100–150", stars:1, lat:31.2160, lng:121.4490, address:"68 Wulumuqi Middle Rd", desc:"Reliable all-day Western cafe. A comfortable fallback when you need something familiar.", dishes:[{en:"Full Western breakfast",zh:"西式早餐"},{en:"Salads and sandwiches",zh:"沙拉三明治"}], tips:["English menu throughout","Good for solo diners"] },
+  { id:37, zh:"IL TEATRO", en:"IL TEATRO", cuisine:"western", cuisineLabel:"Fine Italian", price:"¥200–300", stars:1, lat:31.2198, lng:121.4726, address:"19 Taikang Rd Lane 181, Xintiandi", desc:"Elegant Italian dining in Xintiandi. Consistently recommended by Shanghai's foreign community.", dishes:[{en:"Italian tasting menu",zh:"意大利套餐"}], tips:["In Xintiandi — evening walk after","Smart casual dress code"] },
+  { id:38, zh:"BOTTEGA意库", en:"BOTTEGA Pizzeria", cuisine:"western", cuisineLabel:"Neapolitan pizza", price:"¥150–200", stars:2, lat:31.2154, lng:121.4563, address:"108 Xiangyang North Rd", desc:"Authentic Neapolitan pizza in a wood-fired oven. Italian expats say this is the real thing.", dishes:[{en:"Wood-fired Neapolitan pizza",zh:"那不勒斯窑炉披萨"}], tips:["Near Xiangyang Park — nice area","Good weekday lunch spot"] },
+  { id:39, zh:"Guinness Social by B&W's", en:"Guinness Social", cuisine:"western", cuisineLabel:"British pub food", price:"¥120–180", stars:1, lat:31.2097, lng:121.4663, address:"Tianzifang", desc:"Proper British pub food in Tianzifang. ~70% foreign crowd. Fish & chips done right.", dishes:[{en:"Full English breakfast",zh:"英式早餐"},{en:"Fish & chips",zh:"炸鱼薯条"},{en:"Cottage pie",zh:"农舍派"}], tips:["Entirely English-speaking staff","In Tianzifang — explore alleyways before eating","Good for homesick British/Australian travellers"] },
+  { id:40, zh:"人和馆", en:"Ren He Guan", cuisine:"shanghai", cuisineLabel:"Michelin Shanghai", price:"¥150–250", stars:1, lat:31.1998, lng:121.4487, address:"407 Zhaojiabang Rd", desc:"Michelin-starred Shanghai restaurant since 2021. Crab roe rice and braised pork are outstanding.", dishes:[{en:"Crab roe rice",zh:"蟹粉饭"},{en:"Braised pork",zh:"红烧肉"}], tips:["Best value Michelin in the city","Book ahead"] },
+  { id:41, zh:"海金滋", en:"Hai Jin Zi", cuisine:"shanghai", cuisineLabel:"Shanghai cuisine", price:"¥80–150", stars:1, lat:31.2158, lng:121.4542, address:"240 Jinxian Rd", desc:"No-frills neighbourhood Shanghai restaurant open 30+ years. The scallion pork chop is legendary.", dishes:[{en:"Scallion-braised pork chop",zh:"葱烤猪排"},{en:"Crab roe scrambled eggs",zh:"蟹粉蛋"}], tips:["Staff won't speak English — pointing works","Go before 6pm to avoid queues"] },
+  { id:42, zh:"兰心", en:"Lan Xin Restaurant", cuisine:"shanghai", cuisineLabel:"Michelin Shanghai", price:"¥80–150", stars:1, lat:31.2155, lng:121.4545, address:"130 Jinxian Rd", desc:"Michelin's favourite Shanghai restaurant for 7 consecutive years. Unassuming exterior, exceptional cooking.", dishes:[{en:"Spicy braised pork",zh:"辣味红烧肉"},{en:"Fermented-wine fish",zh:"糟溜鱼"}], tips:["Seven Michelin mentions — this is the real thing","Same street as Hai Jin Zi — visit both"] },
+  { id:43, zh:"五里关火锅", en:"Wuliguan Hotpot", cuisine:"hotpot", cuisineLabel:"Chongqing hotpot", price:"¥100–180", stars:3, lat:31.2380, lng:121.4760, address:"Check Dianping", desc:"Cult-favourite Chongqing hotpot. Six-time returnees call it Shanghai's best. Desserts are excellent too.", dishes:[{en:"9-grid Chongqing broth",zh:"九宫格锅底"},{en:"Honeycomb tripe",zh:"脆毛肚"},{en:"Handmade sweet potato noodles",zh:"手工苕皮"}], tips:["Choose 微辣 (mild) if new to hotpot spice","Book 3+ days ahead — fills up fast","Desserts and drinks are part of the experience"] },
+  { id:44, zh:"周师兄重庆火锅", en:"Zhou Shixiong Hotpot", cuisine:"hotpot", cuisineLabel:"Chongqing hotpot", price:"¥100–180", stars:2, lat:31.2310, lng:121.4760, address:"258 West Nanjing Rd (People's Square)", desc:"Popular Chongqing hotpot near People's Square. Fresh-cut beef is the signature.", dishes:[{en:"Fresh-cut Huangniu beef",zh:"现切黄牛肉"},{en:"Pork kidney slices",zh:"大刀腰片"},{en:"Handmade sweet potato noodles",zh:"手工苕皮"}], tips:["Exit 11 of People's Square","Order 微辣 (mild) or 中辣 (medium) if new to spice","Shaved ice desserts pair well with the broth"] },
+  { id:45, zh:"汕喜牛潮汕牛肉火锅", en:"Shanxi Niu Chaoshan Hotpot", cuisine:"hotpot", cuisineLabel:"Chaoshan beef hotpot", price:"¥120–200", stars:2, lat:31.2280, lng:121.4690, address:"Check Dianping", desc:"Premium Chaoshan-style beef hotpot — NOT spicy. Ultra-fresh cuts in a clear broth. Must for beef lovers.", dishes:[{en:"Fresh-sliced Chaoshan beef",zh:"潮汕鲜牛肉"},{en:"Various beef cuts",zh:"各式牛肉部位"}], tips:["NOT spicy — clear broth, pure beef flavour","Cook beef for 5–10 seconds only","Dip in house satay sauce (沙茶酱)"] },
+  { id:46, zh:"滇牛云南酸菜牛肉火锅", en:"Dianniu Yunnan Hotpot", cuisine:"hotpot", cuisineLabel:"Yunnan hotpot", price:"¥80–150", stars:2, lat:31.2270, lng:121.4680, address:"Check Dianping", desc:"Tangy Yunnan-style beef and sauerkraut hotpot. Lighter than Sichuan — great for spice-sensitive eaters.", dishes:[{en:"Sauerkraut beef hotpot",zh:"酸菜牛肉"},{en:"Black fish",zh:"黑鱼"},{en:"Brisket",zh:"胸口捞"}], tips:["A gentler intro to Chinese hotpot","The sour broth is the point — lean into it"] },
+  { id:47, zh:"EliFalafel黎巴嫩餐厅", en:"EliFalafel Lebanese", cuisine:"foreign", cuisineLabel:"Lebanese", price:"¥80–150", stars:1, lat:31.2352, lng:121.5078, address:"Fucheng Rd, Lujiazui", desc:"Popular Lebanese in Lujiazui. Great for vegetarians wanting a break from Chinese food.", dishes:[{en:"Falafel plate",zh:"法拉费尔"},{en:"Hummus and mezze",zh:"中东小食拼盘"}], tips:["In Lujiazui — combine with evening Bund walk","Good vegetarian options","English-friendly staff"] },
+  { id:48, zh:"火烧云", en:"Huo Shao Yun", cuisine:"chinese", cuisineLabel:"Yunnan cuisine", price:"¥60–120", stars:2, lat:31.2281, lng:121.4701, address:"Multiple locations citywide", desc:"Popular Yunnan chain that locals genuinely love. The black bean mashed pork (hei san duo) is legendary.", dishes:[{en:"Black bean mashed pork (hei san duo)",zh:"黑三剁"},{en:"Yunnan rice noodle soup",zh:"过桥米线"}], tips:["Multiple locations citywide — easy to find","Order 黑三剁 — locals' number one reason to return"] }
+];
+
+const FM = {
+  all:()=>true,
+  shanghai:r=>r.cuisine==="shanghai"||r.cuisine==="snacks",
+  hotpot:r=>r.cuisine==="hotpot",
+  western:r=>r.cuisine==="western",
+  japanese:r=>r.cuisine==="japanese",
+  snacks:r=>r.cuisine==="snacks",
+  chinese:r=>r.cuisine==="chinese",
+  foreign:r=>r.cuisine==="foreign"
+};
+
+let map, markers={}, activeFilter="all";
+
+function sc(n){return n>=3?"star3":n>=2?"star2":"";}
+function se(n){return "⭐".repeat(n);}
+
+function renderList(f){
+  activeFilter=f;
+  const filtered=restaurants.filter(FM[f]||FM.all);
+  document.getElementById("hCount").textContent=filtered.length+" restaurants";
+  Object.keys(markers).forEach(id=>{
+    markers[id].el.style.display=filtered.find(r=>r.id==id)?"block":"none";
+  });
+  document.getElementById("rList").innerHTML=filtered.map(r=>`
+    <div class="r-item" id="li-${r.id}" onclick="pick(${r.id})">
+      <div class="r-zh">${r.zh}</div>
+      <div class="r-en">${r.en}</div>
+      <div class="r-meta">
+        <span class="r-tag">${r.cuisineLabel}</span>
+        <span class="r-price">${r.price}</span>
+        <span>${se(r.stars)}</span>
+      </div>
+      <div class="r-desc">${r.desc}</div>
+    </div>`).join("");
+}
+
+function filterBy(f,btn){
+  document.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
+  btn.classList.add("active");
+  renderList(f);
+}
+
+function pick(id){
+  document.querySelectorAll(".r-item").forEach(e=>e.classList.remove("active"));
+  const li=document.getElementById("li-"+id);
+  if(li){li.classList.add("active");li.scrollIntoView({behavior:"smooth",block:"nearest"});}
+  Object.values(markers).forEach(({el})=>el.classList.remove("active"));
+  if(markers[id])markers[id].el.classList.add("active");
+  const r=restaurants.find(x=>x.id===id);
+  if(map)map.flyTo({center:[r.lng,r.lat],zoom:15,duration:500});
+  showDetail(r);
+}
+
+function showDetail(r){
+  document.getElementById("dInner").innerHTML=`
+    <div style="margin-bottom:1.2rem">
+      <div class="panel-zh">${r.zh}</div>
+      <div class="panel-en">${r.en}</div>
+      <div class="panel-badges">
+        <span class="badge">${r.cuisineLabel}</span>
+        <span class="badge gold">${r.price}/person</span>
+        ${r.stars>=3?'<span class="badge red">Top Pick</span>':""}
+      </div>
+      <div class="panel-desc">${r.desc}</div>
+    </div>
+    <div class="sec-title">What to order</div>
+    ${r.dishes.map(d=>`<div class="dish-row"><span class="dish-en">${d.en}</span><span class="dish-zh">${d.zh}</span></div>`).join("")}
+    <button class="order-btn" onclick="openModal(${r.id})">📱 Show ordering card to server</button>
+    <div class="sec-title">Tips</div>
+    ${r.tips.map(t=>`<div class="tip-row"><span style="flex-shrink:0">→</span><span>${t}</span></div>`).join("")}
+    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.7rem;color:var(--muted)">📍 ${r.address}</div>`;
+  document.getElementById("dPanel").classList.add("open");
+}
+
+function closePanel(){
+  document.getElementById("dPanel").classList.remove("open");
+  document.querySelectorAll(".r-item").forEach(e=>e.classList.remove("active"));
+  Object.values(markers).forEach(({el})=>el.classList.remove("active"));
+}
+
+function openModal(id){
+  const r=restaurants.find(x=>x.id===id);
+  document.getElementById("mTitle").textContent=r.en+" · "+r.zh;
+  document.getElementById("mZh").textContent=r.dishes.map(d=>d.zh).join(" · ");
+  document.getElementById("mDishes").innerHTML=r.dishes.map(d=>`<div class="modal-dish"><span>${d.en}</span><span class="modal-dish-zh">${d.zh}</span></div>`).join("");
+  document.getElementById("modal").classList.add("open");
+}
+
+function copyModal(){
+  const t=document.getElementById("mTitle").textContent+"
+"+document.getElementById("mZh").textContent;
+  navigator.clipboard.writeText(t).then(()=>{
+    const b=document.querySelector(".modal-copy");
+    b.textContent="✓ Copied!";setTimeout(()=>b.textContent="Copy Chinese text",2000);
+  });
+}
+
+function cp(text,btn){
+  navigator.clipboard.writeText(text).then(()=>{
+    const o=btn.textContent;btn.textContent="✓";
+    setTimeout(()=>btn.textContent=o,2000);
+  });
+}
+
+function initMap(){
+  mapboxgl.accessToken="pk.eyJ1IjoidHpoYW4xIiwiYSI6ImNtcGN1Z2EwNzAxaXoyc3NjYnM3b2E0am8ifQ.5DfO7viMVtyeTxM1hxYsvg";
+  map=new mapboxgl.Map({
+    container:"map",
+    style:"mapbox://styles/mapbox/light-v11",
+    center:[121.4737,31.2304],
+    zoom:12.5,
+    attributionControl:false
+  });
+  map.addControl(new mapboxgl.NavigationControl({showCompass:false}),"top-right");
+  map.on("load",()=>{
+    restaurants.forEach(r=>{
+      const el=document.createElement("div");
+      el.className="map-marker "+sc(r.stars);
+      el.addEventListener("click",()=>pick(r.id));
+      markers[r.id]={
+        marker:new mapboxgl.Marker({element:el,anchor:"bottom"}).setLngLat([r.lng,r.lat]).addTo(map),
+        el
+      };
+    });
+    renderList("all");
+  });
+}
+</script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js" onload="initMap()"></script>
+</body>
+</html>
