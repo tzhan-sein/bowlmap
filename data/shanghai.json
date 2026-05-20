@@ -14,9 +14,9 @@
       "en": "Waitan Jiayan",
       "cuisine": "shanghai",
       "cuisineLabel": "Shanghai cuisine",
-      "scene": [
-        "groups",
-        "foreign-guests"
+      "vibe": [
+        "date-night",
+        "instagrammable"
       ],
       "price": "¥100–150",
       "stars": 3,
@@ -52,11 +52,11 @@
       "id": 2,
       "zh": "莱莱小笼",
       "en": "Lailai Xiaolongbao",
-      "cuisine": "dumplings",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Dim Sum",
-      "scene": [
-        "michelin",
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥40–60",
       "stars": 3,
@@ -84,10 +84,11 @@
       "id": 3,
       "zh": "沈大成",
       "en": "Shen Da Cheng",
-      "cuisine": "noodles",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Shanghai snacks",
-      "scene": [
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥10–30",
       "stars": 3,
@@ -115,10 +116,11 @@
       "id": 4,
       "zh": "鲜得来排骨年糕",
       "en": "Xiandélai Pork Chop Rice Cake",
-      "cuisine": "noodles",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Shanghai street food",
-      "scene": [
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥20–40",
       "stars": 2,
@@ -145,10 +147,11 @@
       "id": 5,
       "zh": "大壶春生煎",
       "en": "Dahuchun Pan-fried Buns",
-      "cuisine": "dumplings",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Pan-fried buns",
-      "scene": [
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥20–40",
       "stars": 2,
@@ -175,11 +178,11 @@
       "id": 6,
       "zh": "凯司令",
       "en": "Kaisiling Bakery",
-      "cuisine": "brunch",
+      "cuisine": "brunch-cafes",
       "cuisineLabel": "Historic bakery",
-      "scene": [
+      "vibe": [
         "cheap-eats",
-        "foreign-guests"
+        "instagrammable"
       ],
       "price": "¥30–60",
       "stars": 2,
@@ -202,10 +205,11 @@
       "id": 7,
       "zh": "虹口糕团食品厂",
       "en": "Hongkou Rice Cake Shop",
-      "cuisine": "noodles",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Traditional rice cakes",
-      "scene": [
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥10–20",
       "stars": 2,
@@ -228,11 +232,10 @@
       "id": 8,
       "zh": "第一食品商店",
       "en": "No.1 Food Store",
-      "cuisine": "noodles",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Snacks and souvenirs",
-      "scene": [
-        "cheap-eats",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥20–100",
       "stars": 2,
@@ -261,9 +264,10 @@
       "en": "Li Baixie Crab Restaurant",
       "cuisine": "shanghai",
       "cuisineLabel": "Crab cuisine",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "instagrammable",
+        "special-occasion"
       ],
       "price": "¥150–300",
       "stars": 2,
@@ -297,9 +301,9 @@
       "en": "Yakiniku No.9",
       "cuisine": "roast-bbq",
       "cuisineLabel": "Japanese BBQ",
-      "scene": [
+      "vibe": [
         "date-night",
-        "groups"
+        "local-secret"
       ],
       "price": "¥150–250",
       "stars": 3,
@@ -328,9 +332,9 @@
       "en": "Lóushàng Hotpot",
       "cuisine": "hotpot",
       "cuisineLabel": "Upscale hotpot",
-      "scene": [
+      "vibe": [
         "date-night",
-        "groups"
+        "special-occasion"
       ],
       "price": "¥200–300",
       "stars": 2,
@@ -355,8 +359,9 @@
       "en": "Iron House Yakiniku",
       "cuisine": "roast-bbq",
       "cuisineLabel": "Japanese BBQ",
-      "scene": [
-        "date-night"
+      "vibe": [
+        "date-night",
+        "special-occasion"
       ],
       "price": "¥200–350",
       "stars": 2,
@@ -382,8 +387,8 @@
       "en": "Lao Jishi",
       "cuisine": "shanghai",
       "cuisineLabel": "Shanghai cuisine",
-      "scene": [
-        "michelin"
+      "vibe": [
+        "local-secret"
       ],
       "price": "¥100–200",
       "stars": 2,
@@ -409,10 +414,9 @@
       "en": "Xinrongji",
       "cuisine": "shanghai",
       "cuisineLabel": "Zhejiang fine dining",
-      "scene": [
-        "michelin",
-        "date-night",
-        "foreign-guests"
+      "vibe": [
+        "special-occasion",
+        "local-secret"
       ],
       "price": "¥300–500",
       "stars": 2,
@@ -437,9 +441,9 @@
       "en": "Xiji HK Dai Pai Dong",
       "cuisine": "shanghai",
       "cuisineLabel": "Hong Kong style",
-      "scene": [
+      "vibe": [
         "cheap-eats",
-        "groups"
+        "local-secret"
       ],
       "price": "¥80–150",
       "stars": 2,
@@ -469,9 +473,8 @@
       "en": "Le Saleya Wine Bar",
       "cuisine": "wine-bar",
       "cuisineLabel": "French wine bar",
-      "scene": [
-        "date-night",
-        "foreign-guests"
+      "vibe": [
+        "date-night"
       ],
       "price": "¥150–250",
       "stars": 2,
@@ -496,39 +499,13 @@
       ]
     },
     {
-      "id": 17,
-      "zh": "福悦海鲜汤粉面",
-      "en": "Fuyue Seafood Noodle",
-      "cuisine": "noodles",
-      "cuisineLabel": "Fujian noodles",
-      "scene": [
-        "cheap-eats"
-      ],
-      "price": "¥50–100",
-      "stars": 1,
-      "lat": 31.2188,
-      "lng": 121.44,
-      "address": "59 Xuanhua Rd",
-      "desc": "Honest Fujian-style seafood noodle soup. Zero tourist pretension. Deeply savoury broth.",
-      "dishes": [
-        {
-          "en": "Seafood soup noodles",
-          "zh": "海鲜汤粉面"
-        }
-      ],
-      "tips": [
-        "Arrive before 12:30 for lunch",
-        "Genuine local experience"
-      ]
-    },
-    {
       "id": 18,
       "zh": "孔乙己",
       "en": "Kong Yiji",
       "cuisine": "shanghai",
       "cuisineLabel": "Shaoxing cuisine",
-      "scene": [
-        "foreign-guests",
+      "vibe": [
+        "instagrammable",
         "date-night"
       ],
       "price": "¥80–150",
@@ -556,9 +533,10 @@
       "id": 19,
       "zh": "Cape Market 海角街市",
       "en": "Cape Market",
-      "cuisine": "international",
+      "cuisine": "taiwanese",
       "cuisineLabel": "Taiwanese",
-      "scene": [
+      "vibe": [
+        "instagrammable",
         "date-night"
       ],
       "price": "¥100–200",
@@ -582,10 +560,11 @@
       "id": 20,
       "zh": "Cinta Blues 亲塔屋",
       "en": "Cinta Blues",
-      "cuisine": "international",
+      "cuisine": "southeast-asian",
       "cuisineLabel": "Malaysian",
-      "scene": [
-        "foreign-guests"
+      "vibe": [
+        "local-secret",
+        "date-night"
       ],
       "price": "¥100–200",
       "stars": 1,
@@ -612,11 +591,11 @@
       "id": 21,
       "zh": "家康居酒屋",
       "en": "Jiakang Izakaya",
-      "cuisine": "wine-bar",
+      "cuisine": "japanese",
       "cuisineLabel": "Japanese izakaya",
-      "scene": [
+      "vibe": [
         "date-night",
-        "groups"
+        "cheap-eats"
       ],
       "price": "¥100–200",
       "stars": 1,
@@ -642,11 +621,10 @@
       "id": 22,
       "zh": "Omills",
       "en": "Omills",
-      "cuisine": "brunch",
+      "cuisine": "brunch-cafes",
       "cuisineLabel": "Brunch cafe",
-      "scene": [
-        "brunch",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥80–150",
       "stars": 2,
@@ -671,10 +649,9 @@
       "en": "Shengyongxing Roast Duck",
       "cuisine": "roast-bbq",
       "cuisineLabel": "Michelin roast duck",
-      "scene": [
-        "michelin",
-        "date-night",
-        "foreign-guests"
+      "vibe": [
+        "special-occasion",
+        "instagrammable"
       ],
       "price": "¥150–500",
       "stars": 3,
@@ -707,9 +684,9 @@
       "en": "Delin Sauerkraut Fish",
       "cuisine": "shanghai",
       "cuisineLabel": "Sichuan fish",
-      "scene": [
+      "vibe": [
         "cheap-eats",
-        "groups"
+        "local-secret"
       ],
       "price": "¥60–120",
       "stars": 2,
@@ -738,9 +715,9 @@
       "en": "Yu Waitan",
       "cuisine": "shanghai",
       "cuisineLabel": "Fujian fine dining",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "special-occasion"
       ],
       "price": "¥200–400",
       "stars": 1,
@@ -763,10 +740,11 @@
       "id": 26,
       "zh": "白玉兰食品",
       "en": "Baiyulan Food",
-      "cuisine": "noodles",
+      "cuisine": "dumplings-snacks",
       "cuisineLabel": "Shanghai snacks",
-      "scene": [
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥10–30",
       "stars": 1,
@@ -795,9 +773,9 @@
       "en": "Siji Minfu Peking Duck",
       "cuisine": "roast-bbq",
       "cuisineLabel": "Peking Duck",
-      "scene": [
-        "foreign-guests",
-        "groups"
+      "vibe": [
+        "cheap-eats",
+        "instagrammable"
       ],
       "price": "¥150–200",
       "stars": 2,
@@ -830,9 +808,8 @@
       "en": "Tres Perros",
       "cuisine": "wine-bar",
       "cuisineLabel": "Spanish tapas bar",
-      "scene": [
-        "date-night",
-        "foreign-guests"
+      "vibe": [
+        "date-night"
       ],
       "price": "¥150–250",
       "stars": 2,
@@ -862,9 +839,8 @@
       "en": "Bella Napoli",
       "cuisine": "pizza-pasta",
       "cuisineLabel": "Italian",
-      "scene": [
-        "groups",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥100–200",
       "stars": 2,
@@ -891,11 +867,11 @@
       "id": 30,
       "zh": "Banana GG",
       "en": "Banana GG",
-      "cuisine": "brunch",
+      "cuisine": "brunch-cafes",
       "cuisineLabel": "Brunch cafe",
-      "scene": [
-        "brunch",
-        "foreign-guests"
+      "vibe": [
+        "instagrammable",
+        "cheap-eats"
       ],
       "price": "¥100–180",
       "stars": 2,
@@ -929,8 +905,8 @@
       "en": "Longmen Zhen Teahouse",
       "cuisine": "shanghai",
       "cuisineLabel": "Modern Sichuan",
-      "scene": [
-        "foreign-guests",
+      "vibe": [
+        "instagrammable",
         "date-night"
       ],
       "price": "¥150–250",
@@ -960,8 +936,8 @@
       "en": "Yunnan Heaven",
       "cuisine": "shanghai",
       "cuisineLabel": "Yunnan cuisine",
-      "scene": [
-        "foreign-guests",
+      "vibe": [
+        "instagrammable",
         "date-night"
       ],
       "price": "¥100–200",
@@ -991,9 +967,9 @@
       "en": "Zhuque Teahouse",
       "cuisine": "shanghai",
       "cuisineLabel": "Cantonese with palace decor",
-      "scene": [
-        "foreign-guests",
-        "groups"
+      "vibe": [
+        "instagrammable",
+        "date-night"
       ],
       "price": "¥200–350",
       "stars": 2,
@@ -1022,9 +998,9 @@
       "en": "Oha Eatery",
       "cuisine": "wine-bar",
       "cuisineLabel": "Guizhou fusion bistro",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "instagrammable"
       ],
       "price": "¥300–450",
       "stars": 2,
@@ -1049,9 +1025,8 @@
       "en": "Alimentari Mulino",
       "cuisine": "pizza-pasta",
       "cuisineLabel": "Italian",
-      "scene": [
-        "date-night",
-        "foreign-guests"
+      "vibe": [
+        "date-night"
       ],
       "price": "¥150–300",
       "stars": 2,
@@ -1079,11 +1054,10 @@
       "id": 36,
       "zh": "Money Shops",
       "en": "Money Shops",
-      "cuisine": "brunch",
+      "cuisine": "brunch-cafes",
       "cuisineLabel": "All-day cafe",
-      "scene": [
-        "brunch",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥100–150",
       "stars": 1,
@@ -1112,9 +1086,9 @@
       "en": "IL TEATRO",
       "cuisine": "pizza-pasta",
       "cuisineLabel": "Fine Italian",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "special-occasion"
       ],
       "price": "¥200–300",
       "stars": 1,
@@ -1139,9 +1113,8 @@
       "en": "BOTTEGA Pizzeria",
       "cuisine": "pizza-pasta",
       "cuisineLabel": "Neapolitan pizza",
-      "scene": [
-        "cheap-eats",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥150–200",
       "stars": 2,
@@ -1166,9 +1139,8 @@
       "en": "Guinness Social",
       "cuisine": "wine-bar",
       "cuisineLabel": "British pub",
-      "scene": [
-        "foreign-guests",
-        "groups"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥120–180",
       "stars": 1,
@@ -1201,9 +1173,9 @@
       "en": "Ren He Guan",
       "cuisine": "shanghai",
       "cuisineLabel": "Michelin Shanghai",
-      "scene": [
-        "michelin",
-        "date-night"
+      "vibe": [
+        "special-occasion",
+        "local-secret"
       ],
       "price": "¥150–250",
       "stars": 1,
@@ -1232,9 +1204,9 @@
       "en": "Hai Jin Zi",
       "cuisine": "shanghai",
       "cuisineLabel": "Shanghai cuisine",
-      "scene": [
+      "vibe": [
         "cheap-eats",
-        "michelin"
+        "local-secret"
       ],
       "price": "¥80–150",
       "stars": 1,
@@ -1263,9 +1235,9 @@
       "en": "Lan Xin Restaurant",
       "cuisine": "shanghai",
       "cuisineLabel": "Michelin Shanghai",
-      "scene": [
-        "michelin",
-        "cheap-eats"
+      "vibe": [
+        "local-secret",
+        "special-occasion"
       ],
       "price": "¥80–150",
       "stars": 1,
@@ -1294,8 +1266,8 @@
       "en": "Wuliguan Hotpot",
       "cuisine": "hotpot",
       "cuisineLabel": "Chongqing hotpot",
-      "scene": [
-        "groups",
+      "vibe": [
+        "local-secret",
         "cheap-eats"
       ],
       "price": "¥100–180",
@@ -1329,8 +1301,7 @@
       "en": "Zhou Shixiong Hotpot",
       "cuisine": "hotpot",
       "cuisineLabel": "Chongqing hotpot",
-      "scene": [
-        "groups",
+      "vibe": [
         "cheap-eats"
       ],
       "price": "¥100–180",
@@ -1364,9 +1335,9 @@
       "en": "Shanxi Niu Chaoshan Hotpot",
       "cuisine": "hotpot",
       "cuisineLabel": "Chaoshan beef hotpot",
-      "scene": [
-        "groups",
-        "foreign-guests"
+      "vibe": [
+        "local-secret",
+        "date-night"
       ],
       "price": "¥120–200",
       "stars": 2,
@@ -1396,8 +1367,7 @@
       "en": "Dianniu Yunnan Hotpot",
       "cuisine": "hotpot",
       "cuisineLabel": "Yunnan hotpot",
-      "scene": [
-        "groups",
+      "vibe": [
         "cheap-eats"
       ],
       "price": "¥80–150",
@@ -1429,11 +1399,10 @@
       "id": 47,
       "zh": "EliFalafel黎巴嫩餐厅",
       "en": "EliFalafel Lebanese",
-      "cuisine": "international",
+      "cuisine": "southeast-asian",
       "cuisineLabel": "Lebanese",
-      "scene": [
-        "cheap-eats",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats"
       ],
       "price": "¥80–150",
       "stars": 1,
@@ -1463,9 +1432,9 @@
       "en": "Huo Shao Yun",
       "cuisine": "shanghai",
       "cuisineLabel": "Yunnan cuisine",
-      "scene": [
+      "vibe": [
         "cheap-eats",
-        "groups"
+        "local-secret"
       ],
       "price": "¥60–120",
       "stars": 2,
@@ -1492,18 +1461,19 @@
       "id": 49,
       "zh": "唐炙",
       "en": "Tang Zhi",
-      "cuisine": "chinese",
+      "cuisine": "wine-bar",
       "cuisineLabel": "Northwest China Bistro",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "instagrammable",
+        "local-secret"
       ],
       "price": "¥150–250",
       "stars": 2,
       "lat": 31.222,
       "lng": 121.465,
       "address": "Check Dianping",
-      "desc": "Creative Northwest China bistro that wowed locals when the owner of Xinrongji showed up to eat. Bold flavours — braised beef ribs in spicy sauce, garlic lamb, and a stunning bruschetta with braised cartilage and burrata.",
+      "desc": "Creative Northwest China bistro that wowed locals when the owner of Xinrongji showed up to eat. Braised beef ribs, garlic lamb, and a bruschetta with braised cartilage and burrata.",
       "dishes": [
         {
           "en": "Bone-in beef short rib",
@@ -1530,16 +1500,16 @@
       "en": "Juke",
       "cuisine": "wine-bar",
       "cuisineLabel": "Creative bistro",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "local-secret"
       ],
       "price": "¥150–250",
       "stars": 2,
       "lat": 31.2198,
       "lng": 121.455,
       "address": "Check Dianping — reservation required",
-      "desc": "Small, atmospheric creative bistro that locals keep returning to. Space is intimate, pasta has exceptional chew. Reservation essential — very hard to walk in.",
+      "desc": "Small, atmospheric creative bistro that locals keep returning to. Space is intimate, pasta has exceptional chew. Reservation essential.",
       "dishes": [
         {
           "en": "Creative pasta (changes seasonally)",
@@ -1560,21 +1530,21 @@
       "id": 51,
       "zh": "Bistro11",
       "en": "Bistro11",
-      "cuisine": "brunch",
+      "cuisine": "brunch-cafes",
       "cuisineLabel": "European brunch bistro",
-      "scene": [
-        "brunch",
-        "foreign-guests"
+      "vibe": [
+        "cheap-eats",
+        "instagrammable"
       ],
       "price": "¥100–150",
       "stars": 2,
       "lat": 31.2255,
       "lng": 121.46,
       "address": "Check Dianping",
-      "desc": "The go-to for what locals call white people food (白人饭). The shakshuka (North African eggs) is famous. Consistently recommended by Shanghai locals as a reliable all-day bistro.",
+      "desc": "The go-to for what locals call white people food (白人饭). The shakshuka is famous. Consistently recommended as a reliable all-day bistro.",
       "dishes": [
         {
-          "en": "Shakshuka (North African baked eggs)",
+          "en": "Shakshuka North African baked eggs",
           "zh": "北非蛋"
         },
         {
@@ -1585,7 +1555,7 @@
       "tips": [
         "Go on a weekday for a quieter experience",
         "The shakshuka is the signature — order it",
-        "Casual, relaxed atmosphere — good for solo dining"
+        "Casual, relaxed — good for solo dining"
       ]
     },
     {
@@ -1594,17 +1564,17 @@
       "en": "Polux",
       "cuisine": "wine-bar",
       "cuisineLabel": "French bistro",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests",
-        "michelin"
+        "instagrammable",
+        "special-occasion"
       ],
       "price": "¥200–350",
       "stars": 2,
       "lat": 31.2198,
       "lng": 121.4726,
-      "address": "5 Taikang Rd Lane 181, Xintiandi (北里5号)",
-      "desc": "Michelin 3-star chef Paul Pairet casual French bistro in Xintiandi. The real French toast is what everyone talks about — crispy outside, pillowy inside, paired with sour cream ice cream. Raw beef tartare is also excellent.",
+      "address": "5 Taikang Rd Lane 181, Xintiandi",
+      "desc": "Michelin 3-star chef Paul Pairet casual French bistro in Xintiandi. The real French toast is what everyone talks about.",
       "dishes": [
         {
           "en": "Real French toast",
@@ -1621,8 +1591,7 @@
       ],
       "tips": [
         "Book ahead — popular at lunch and dinner",
-        "In Xintiandi — walk the area after eating",
-        "French toast is sweet — pair with the sour cream ice cream to balance"
+        "French toast is sweet — pair with the sour cream ice cream"
       ]
     },
     {
@@ -1631,16 +1600,16 @@
       "en": "Wei Huang",
       "cuisine": "shanghai",
       "cuisineLabel": "Cantonese claypot",
-      "scene": [
+      "vibe": [
         "date-night",
-        "groups"
+        "local-secret"
       ],
       "price": "¥100–200",
       "stars": 2,
       "lat": 31.226,
       "lng": 121.47,
       "address": "Check Dianping",
-      "desc": "Beloved for its drunken chicken claypot and claypot rice — described by locals as a winter comfort food institution. Consistently recommended alongside the best Shanghai restaurants.",
+      "desc": "Beloved for its drunken chicken claypot and claypot rice. A winter comfort food institution consistently recommended alongside the best Shanghai restaurants.",
       "dishes": [
         {
           "en": "Drunken chicken claypot",
@@ -1661,18 +1630,18 @@
       "id": 54,
       "zh": "湘椒",
       "en": "Xiang Jiao",
-      "cuisine": "chinese",
+      "cuisine": "shanghai",
       "cuisineLabel": "Hunan cuisine",
-      "scene": [
-        "groups",
-        "cheap-eats"
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
       ],
       "price": "¥80–150",
       "stars": 2,
       "lat": 31.224,
       "lng": 121.468,
       "address": "Check Dianping",
-      "desc": "Hunan restaurant with a devoted local following — locals joke about being its unofficial shareholders. Bold, spicy, satisfying.",
+      "desc": "Hunan restaurant with a devoted local following. Bold, spicy, satisfying.",
       "dishes": [
         {
           "en": "Hunan-style spicy dishes",
@@ -1692,21 +1661,21 @@
       "id": 55,
       "zh": "鸟沢",
       "en": "Torizawa",
-      "cuisine": "japanese",
+      "cuisine": "roast-bbq",
       "cuisineLabel": "Japanese yakitori",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "local-secret"
       ],
       "price": "¥150–250",
       "stars": 2,
       "lat": 31.218,
       "lng": 121.459,
       "address": "Check Dianping (not the Gubei branch)",
-      "desc": "Top yakitori (grilled skewers) restaurant recommended by locals who avoid the Gubei area. Serious Japanese grilling technique, intimate atmosphere.",
+      "desc": "Top yakitori (grilled skewers) restaurant recommended by locals. Serious Japanese grilling technique, intimate atmosphere.",
       "dishes": [
         {
-          "en": "Yakitori skewers (chef selection)",
+          "en": "Yakitori skewers chef selection",
           "zh": "烧鸟串烧"
         },
         {
@@ -1721,52 +1690,21 @@
       ]
     },
     {
-      "id": 56,
-      "zh": "金强",
-      "en": "Jin Qiang Noodles",
-      "cuisine": "noodles",
-      "cuisineLabel": "Buckwheat noodles",
-      "scene": [
-        "cheap-eats"
-      ],
-      "price": "¥50–100",
-      "stars": 2,
-      "lat": 31.223,
-      "lng": 121.465,
-      "address": "Check Dianping",
-      "desc": "Late-night buckwheat noodle shop with generous beef portions. A favourite for after-dinner second rounds. The cold buckwheat noodles with beef are the signature.",
-      "dishes": [
-        {
-          "en": "Cold buckwheat noodles with beef",
-          "zh": "荞麦楞拌面配大份牛肉"
-        },
-        {
-          "en": "Various noodle dishes",
-          "zh": "面食"
-        }
-      ],
-      "tips": [
-        "Great for late night eating",
-        "Order the large beef portion — worth it",
-        "Popular as a second stop after dinner elsewhere"
-      ]
-    },
-    {
       "id": 57,
       "zh": "Las Tapas",
       "en": "Las Tapas",
       "cuisine": "wine-bar",
-      "cuisineLabel": "Spanish tapas",
-      "scene": [
-        "date-night",
-        "foreign-guests"
+      "cuisineLabel": "Spanish fine dining",
+      "vibe": [
+        "special-occasion",
+        "instagrammable"
       ],
       "price": "¥250–350",
       "stars": 2,
       "lat": 31.217,
       "lng": 121.4655,
       "address": "Sinan Mansion (思南公馆)",
-      "desc": "The oldest and most established Spanish restaurant in Shanghai — open 20+ years at Sinan Mansion. The Valencia paella is the must-order. Celebrity-spotted, consistently top-ranked for Spanish cuisine in the city.",
+      "desc": "The oldest and most established Spanish restaurant in Shanghai — open 20+ years at Sinan Mansion. The Valencia paella is the must-order.",
       "dishes": [
         {
           "en": "Valencia seafood paella",
@@ -1793,19 +1731,19 @@
       "en": "La Siesta",
       "cuisine": "wine-bar",
       "cuisineLabel": "Authentic Spanish tapas",
-      "scene": [
+      "vibe": [
         "date-night",
-        "foreign-guests"
+        "local-secret"
       ],
       "price": "¥200–300",
       "stars": 2,
       "lat": 31.221,
       "lng": 121.463,
       "address": "Check Dianping",
-      "desc": "Endorsed by Spanish expats as the most authentic tapas in Shanghai. The garlic shrimp alone signals the quality. No paella — pure tapas focus. Better than Tres Perros according to many Spanish visitors.",
+      "desc": "Endorsed by Spanish expats as the most authentic tapas in Shanghai. The garlic shrimp signals the quality immediately.",
       "dishes": [
         {
-          "en": "Garlic shrimp (gambas al ajillo)",
+          "en": "Garlic shrimp gambas al ajillo",
           "zh": "蒜香橄榄油虾"
         },
         {
@@ -1820,7 +1758,7 @@
       "tips": [
         "Endorsed by Spanish expats — the real thing",
         "No paella here — tapas only",
-        "The olives are considered the best in Shanghai by some"
+        "The olives are considered the best in Shanghai"
       ]
     },
     {
@@ -1829,16 +1767,16 @@
       "en": "TOMATITO",
       "cuisine": "wine-bar",
       "cuisineLabel": "Spanish rooftop",
-      "scene": [
-        "date-night",
-        "foreign-guests"
+      "vibe": [
+        "instagrammable",
+        "date-night"
       ],
       "price": "¥250–350",
       "stars": 2,
       "lat": 31.224,
       "lng": 121.481,
-      "address": "168 Hubin Rd, 3F (湖滨路168号3楼)",
-      "desc": "Spanish restaurant with a rooftop terrace — great for evening dining with a breeze. Iberian ham and seafood rice are the must-orders. One of the top 3 Spanish restaurants in Shanghai.",
+      "address": "168 Hubin Rd, 3F",
+      "desc": "Spanish restaurant with a rooftop terrace — great for evening dining. Iberian ham and seafood rice are must-orders.",
       "dishes": [
         {
           "en": "Iberian ham",
@@ -1855,8 +1793,7 @@
       ],
       "tips": [
         "Rooftop terrace — go at sunset",
-        "Book ahead for terrace seating",
-        "One of the most consistent Spanish restaurants in the city"
+        "Book ahead for terrace seating"
       ]
     },
     {
@@ -1864,18 +1801,17 @@
       "zh": "Villa Le Bec",
       "en": "Villa Le Bec",
       "cuisine": "wine-bar",
-      "cuisineLabel": "Classic French fine dining",
-      "scene": [
-        "date-night",
-        "michelin",
-        "foreign-guests"
+      "cuisineLabel": "Classic French",
+      "vibe": [
+        "special-occasion",
+        "date-night"
       ],
       "price": "¥400–600",
       "stars": 2,
       "lat": 31.214,
       "lng": 121.452,
       "address": "Check Dianping",
-      "desc": "Shanghai French dining institution — been here for years and still considered the best classic French in the city. Black truffle pasta, beef eye fillet and foie gras are the signatures. Knowledgeable sommelier.",
+      "desc": "Shanghai French dining institution. Still considered the best classic French in the city. Black truffle pasta and beef eye fillet are signatures.",
       "dishes": [
         {
           "en": "Black truffle pasta",
@@ -1891,8 +1827,8 @@
         }
       ],
       "tips": [
-        "The French institution of Shanghai — multiple years at the top",
-        "Enthusiastic sommelier — ask for wine pairing",
+        "The French institution of Shanghai",
+        "Ask sommelier for wine pairing",
         "Book well ahead for weekends"
       ]
     },
@@ -1902,17 +1838,16 @@
       "en": "Vivant",
       "cuisine": "wine-bar",
       "cuisineLabel": "Modern French fine dining",
-      "scene": [
-        "date-night",
-        "michelin",
-        "foreign-guests"
+      "vibe": [
+        "special-occasion",
+        "instagrammable"
       ],
       "price": "¥500–800",
       "stars": 3,
       "lat": 31.234,
       "lng": 121.472,
-      "address": "Far Eastern Hotel, People Square (人民广场前远东饭店)",
-      "desc": "Modern French restaurant at People Square that has dramatically improved with each new seasonal menu. Now considered must-visit level by serious Shanghai diners. The fried chicken with lemongrass sauce and the 20kg tomato reduction dish are highlights.",
+      "address": "Far Eastern Hotel, People Square",
+      "desc": "Modern French at People Square now considered must-visit level. The lemongrass fried chicken and the 20kg tomato reduction dish are highlights.",
       "dishes": [
         {
           "en": "Lemongrass fried chicken",
@@ -1929,7 +1864,6 @@
       ],
       "tips": [
         "Third seasonal menu is the one to try",
-        "Located in People Square — easy to get to",
         "Reservation essential — book weeks ahead"
       ]
     },
@@ -1939,17 +1873,17 @@
       "en": "Jean Georges",
       "cuisine": "wine-bar",
       "cuisineLabel": "French creative fine dining",
-      "scene": [
-        "date-night",
-        "michelin",
-        "foreign-guests"
+      "vibe": [
+        "special-occasion",
+        "instagrammable",
+        "date-night"
       ],
       "price": "¥500–800",
       "stars": 2,
       "lat": 31.2408,
       "lng": 121.4887,
-      "address": "Bund 3, 4F (外滩3号4层)",
-      "desc": "One of the most famous Western restaurants at the Bund. Creative French cuisine with Asian influences. Foie gras with sour cherry, king crab with sweet peas, Patagonian toothfish — all consistently excellent. Go for lunch for better light and photos.",
+      "address": "Bund 3, 4F",
+      "desc": "One of the most famous Western restaurants at the Bund. Creative French with Asian influences. Go for lunch for better light.",
       "dishes": [
         {
           "en": "Foie gras with sour cherry",
@@ -1966,8 +1900,606 @@
       ],
       "tips": [
         "Go for lunch — better light for photos",
-        "Evening has more atmosphere but dishes come slowly",
         "Worth every yuan for a special occasion"
+      ]
+    },
+    {
+      "id": 63,
+      "zh": "鮨米禾",
+      "en": "Sushi Mihe",
+      "cuisine": "japanese",
+      "cuisineLabel": "Japanese rice bowls",
+      "vibe": [
+        "cheap-eats",
+        "instagrammable"
+      ],
+      "price": "¥50–100",
+      "stars": 2,
+      "lat": 31.227,
+      "lng": 121.471,
+      "address": "Check Dianping",
+      "desc": "Locals call it the Saizeriya of Japanese food — ridiculously good value. The wagyu sea urchin tartare and beef burger rice bowl are must-orders.",
+      "dishes": [
+        {
+          "en": "Wagyu and sea urchin tartare",
+          "zh": "和牛海胆塔塔"
+        },
+        {
+          "en": "Beef burger rice bowl",
+          "zh": "牛肉汉堡扒泡饭"
+        },
+        {
+          "en": "Caramel ice cream pudding",
+          "zh": "焦糖冰淇淋布丁"
+        }
+      ],
+      "tips": [
+        "Genuinely cheap for the quality — under 100 per person",
+        "The rainbow bowl is great for photos",
+        "Popular — arrive early to avoid queues"
+      ]
+    },
+    {
+      "id": 64,
+      "zh": "鸟醺烧鸟",
+      "en": "Niaoxi Yakitori",
+      "cuisine": "japanese",
+      "cuisineLabel": "Yakitori izakaya",
+      "vibe": [
+        "instagrammable",
+        "date-night"
+      ],
+      "price": "¥100–200",
+      "stars": 2,
+      "lat": 31.226,
+      "lng": 121.475,
+      "address": "Check Dianping",
+      "desc": "Atmospheric yakitori izakaya with a stunning interior. The rainbow bowl and black truffle foie gras rice are as photogenic as they are delicious.",
+      "dishes": [
+        {
+          "en": "Rainbow bowl",
+          "zh": "彩虹饭"
+        },
+        {
+          "en": "Black truffle foie gras rice bowl",
+          "zh": "黑松露流心鹅肝饭"
+        },
+        {
+          "en": "Fresh shrimp and sea urchin skewer",
+          "zh": "紫虾鲜籽"
+        }
+      ],
+      "tips": [
+        "Go for the atmosphere as much as the food",
+        "Evening has the best ambience",
+        "Popular with young Shanghai locals"
+      ]
+    },
+    {
+      "id": 65,
+      "zh": "一幸",
+      "en": "Ikko",
+      "cuisine": "japanese",
+      "cuisineLabel": "Japanese seafood rice bowl",
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
+      ],
+      "price": "¥80–160",
+      "stars": 2,
+      "lat": 31.223,
+      "lng": 121.399,
+      "address": "Loushanguan Road area, Gubei",
+      "desc": "Beloved neighbourhood sushi restaurant in Gubei. The seafood don is the star — great vinegared rice. Two people can share the 98 bowl plus sides.",
+      "dishes": [
+        {
+          "en": "Seafood don (rice bowl)",
+          "zh": "海鲜丼"
+        },
+        {
+          "en": "Marinated eel with vinegar",
+          "zh": "醋鳗鱼"
+        },
+        {
+          "en": "Tuna and scallion luxury roll",
+          "zh": "葱金枪鱼豪华卷"
+        }
+      ],
+      "tips": [
+        "The 98 bowl is enough for one — 158 just adds one more piece",
+        "Share a bowl between two and add sides",
+        "Gubei area — good for exploring the neighbourhood after"
+      ]
+    },
+    {
+      "id": 66,
+      "zh": "稻忠",
+      "en": "Dao Zhong",
+      "cuisine": "japanese",
+      "cuisineLabel": "Japanese fusion bistro",
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
+      ],
+      "price": "¥80–150",
+      "stars": 2,
+      "lat": 31.2235,
+      "lng": 121.3995,
+      "address": "Loushanguan Road area, Gubei",
+      "desc": "Japanese-Western fusion restaurant in Gubei that locals keep coming back to. The mentaiko cream pasta has stopped conversations mid-sentence.",
+      "dishes": [
+        {
+          "en": "Mentaiko cream pasta",
+          "zh": "明太子奶油意面"
+        },
+        {
+          "en": "Foie gras with bread",
+          "zh": "鹅肝酱配面包"
+        },
+        {
+          "en": "Red wine braised beef tongue",
+          "zh": "红酒炖牛舌"
+        }
+      ],
+      "tips": [
+        "The mentaiko pasta is the signature — order it first",
+        "Also available as takeaway for the neighbourhood",
+        "No dish has disappointed regulars yet"
+      ]
+    },
+    {
+      "id": 67,
+      "zh": "金匠寿司",
+      "en": "Jin Jiang Sushi",
+      "cuisine": "japanese",
+      "cuisineLabel": "Japanese sushi bar",
+      "vibe": [
+        "cheap-eats",
+        "date-night"
+      ],
+      "price": "¥80–150",
+      "stars": 2,
+      "lat": 31.2255,
+      "lng": 121.47,
+      "address": "Check Dianping",
+      "desc": "The go-to spot when locals crave foie gras sushi without breaking the bank. Consistent, reliable, and genuinely satisfying.",
+      "dishes": [
+        {
+          "en": "Foie gras sushi",
+          "zh": "鹅肝寿司"
+        },
+        {
+          "en": "Various sushi and small plates",
+          "zh": "各式寿司小食"
+        }
+      ],
+      "tips": [
+        "The foie gras sushi is the reason to come",
+        "Everything is at a reliable standard",
+        "Good for a low-key Japanese night out"
+      ]
+    },
+    {
+      "id": 68,
+      "zh": "捡角",
+      "en": "Jian Jiao",
+      "cuisine": "taiwanese",
+      "cuisineLabel": "Taiwanese street food",
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
+      ],
+      "price": "¥30–60",
+      "stars": 2,
+      "lat": 31.219,
+      "lng": 121.462,
+      "address": "Multiple locations",
+      "desc": "Beloved Taiwanese street food institution with multiple Shanghai locations. Salt-fried chicken and braised pork rice at 15 yuan — locals queue for both. Three people eat well for 50 yuan each.",
+      "dishes": [
+        {
+          "en": "Salt-fried chicken (yansuji)",
+          "zh": "盐酥鸡"
+        },
+        {
+          "en": "Braised pork rice",
+          "zh": "卤肉饭 ¥15"
+        },
+        {
+          "en": "Taiwanese oyster vermicelli",
+          "zh": "蚵仔大肠面线"
+        }
+      ],
+      "tips": [
+        "Expect queues — 30–40 minutes at peak",
+        "15 yuan for the braised pork rice — extraordinary value",
+        "Great for a casual lunch or late-night snack"
+      ]
+    },
+    {
+      "id": 69,
+      "zh": "吴记鲜定味",
+      "en": "Wu Ji Xian Ding Wei",
+      "cuisine": "taiwanese",
+      "cuisineLabel": "Taiwanese home cooking",
+      "vibe": [
+        "local-secret",
+        "instagrammable"
+      ],
+      "price": "¥100–200",
+      "stars": 3,
+      "lat": 31.221,
+      "lng": 121.399,
+      "address": "Caohejing area (漕河泾)",
+      "desc": "The undisputed Taiwanese food pilgrimage in Shanghai — regulars gain 4 pounds per visit and have zero regrets. Ginger duck hotpot, taro duck, oyster omelette, and fresh squid sashimi are the highlights.",
+      "dishes": [
+        {
+          "en": "Ginger duck hotpot with offal",
+          "zh": "姜母鸭拼牛杂鸭血豆腐"
+        },
+        {
+          "en": "Taro duck",
+          "zh": "芋泥鸭方"
+        },
+        {
+          "en": "Oyster omelette",
+          "zh": "蚵仔煎"
+        },
+        {
+          "en": "Squid sashimi",
+          "zh": "鱿鱼刺身"
+        }
+      ],
+      "tips": [
+        "Order everything on the menu — regulars say you cannot go wrong",
+        "Out of the way (Caohejing) but absolutely worth the trip",
+        "Book ahead — very popular with both Taiwanese expats and locals"
+      ]
+    },
+    {
+      "id": 70,
+      "zh": "DK台菜",
+      "en": "DK Taiwanese",
+      "cuisine": "taiwanese",
+      "cuisineLabel": "Taiwanese cuisine",
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
+      ],
+      "price": "¥60–120",
+      "stars": 1,
+      "lat": 31.22,
+      "lng": 121.46,
+      "address": "Check Dianping",
+      "desc": "Recommended by Taiwanese expats living in Shanghai as one of the most reliable and authentic Taiwanese restaurants in the city.",
+      "dishes": [
+        {
+          "en": "Three-cup chicken",
+          "zh": "三杯鸡"
+        },
+        {
+          "en": "Taiwanese sausage with garlic",
+          "zh": "台湾香肠夹蒜片"
+        },
+        {
+          "en": "Braised pork rice",
+          "zh": "卤肉饭"
+        }
+      ],
+      "tips": [
+        "Taiwanese expat recommendation — a strong endorsement",
+        "Good for a full Taiwanese meal without hunting for niche dishes"
+      ]
+    },
+    {
+      "id": 71,
+      "zh": "泰饿 Hiwkao",
+      "en": "Hiwkao Thai",
+      "cuisine": "southeast-asian",
+      "cuisineLabel": "Thai cuisine",
+      "vibe": [
+        "local-secret",
+        "cheap-eats"
+      ],
+      "price": "¥80–150",
+      "stars": 2,
+      "lat": 31.224,
+      "lng": 121.47,
+      "address": "Check Dianping",
+      "desc": "Thai-certified as the most authentic Thai restaurant in Shanghai. The owner is Bangkok-Chinese and cooks personally — no delivery, no compromise. The roast chicken, pad thai, and pineapple fried rice are unmissable.",
+      "dishes": [
+        {
+          "en": "Thai roast chicken",
+          "zh": "烤鸡"
+        },
+        {
+          "en": "Pad Thai",
+          "zh": "泰式炒河粉"
+        },
+        {
+          "en": "Pineapple fried rice",
+          "zh": "菠萝炒饭"
+        }
+      ],
+      "tips": [
+        "No delivery — come in person, worth it",
+        "Thai expats call this the most authentic in Shanghai",
+        "The Thai milk tea is dangerously strong"
+      ]
+    },
+    {
+      "id": 72,
+      "zh": "虹泰 BenJaRong",
+      "en": "BenJaRong Thai",
+      "cuisine": "southeast-asian",
+      "cuisineLabel": "Upscale Thai",
+      "vibe": [
+        "date-night",
+        "instagrammable"
+      ],
+      "price": "¥120–200",
+      "stars": 2,
+      "lat": 31.225,
+      "lng": 121.471,
+      "address": "Check Dianping",
+      "desc": "Upscale Thai restaurant that surprised even seasoned diners. The lychee stir-fried chicken is the signature dish almost no one else offers. Fine dining sensibility with authentic Thai flavours.",
+      "dishes": [
+        {
+          "en": "Lychee stir-fried chicken",
+          "zh": "荔枝炒鸡肉"
+        },
+        {
+          "en": "Green papaya salad (large)",
+          "zh": "木瓜色拉"
+        },
+        {
+          "en": "Tom yum soup",
+          "zh": "冬阴功汤"
+        }
+      ],
+      "tips": [
+        "The lychee chicken is unique — order it without question",
+        "Menu features dishes rarely seen outside Thailand",
+        "Better rice than most Thai restaurants — they use Thai jasmine rice"
+      ]
+    },
+    {
+      "id": 73,
+      "zh": "OROR",
+      "en": "OROR Southeast Asian",
+      "cuisine": "southeast-asian",
+      "cuisineLabel": "Thai and SE Asian",
+      "vibe": [
+        "local-secret",
+        "instagrammable",
+        "cheap-eats"
+      ],
+      "price": "¥80–130",
+      "stars": 3,
+      "lat": 31.218,
+      "lng": 121.452,
+      "address": "Check Dianping (Xuhui area)",
+      "desc": "Zero advertising, pure word-of-mouth — became the number one Southeast Asian restaurant in Xuhui within 14 days of opening. P person converted to J person to queue here. The owner cooks everything personally.",
+      "dishes": [
+        {
+          "en": "Thai basil minced pork rice",
+          "zh": "打抛饭"
+        },
+        {
+          "en": "Coconut milk rice with whole chicken leg",
+          "zh": "椰浆饭"
+        },
+        {
+          "en": "Tom yum seafood hotpot",
+          "zh": "冬阴功海鲜锅"
+        }
+      ],
+      "tips": [
+        "Arrive 10:45am for the 11:00 opening to get first seating",
+        "Zero advertising — the queues are entirely from word of mouth",
+        "The owner personally cooks every dish — very small team"
+      ]
+    },
+    {
+      "id": 74,
+      "zh": "帕蓝暹罗",
+      "en": "Palan Siam",
+      "cuisine": "southeast-asian",
+      "cuisineLabel": "Thai cuisine",
+      "vibe": [
+        "local-secret",
+        "date-night"
+      ],
+      "price": "¥80–150",
+      "stars": 2,
+      "lat": 31.298,
+      "lng": 121.502,
+      "address": "249 Daxue Rd, Wujiaochang (大学路249号)",
+      "desc": "Ranked number one yellow curry beef in Shanghai. Hard to get a table but worth every effort. The yellow curry with fragrant Thai rice is the dish that makes regulars clear their schedule.",
+      "dishes": [
+        {
+          "en": "Yellow curry beef",
+          "zh": "黄咖喱牛肉"
+        },
+        {
+          "en": "Mango sticky rice",
+          "zh": "芒果糯米饭"
+        },
+        {
+          "en": "Fried prawn cake",
+          "zh": "炸虾饼"
+        }
+      ],
+      "tips": [
+        "Yellow curry beef is the signature — non-negotiable order",
+        "Book in advance — consistently hard to get in",
+        "Near Fudan University — lively area for drinks after"
+      ]
+    },
+    {
+      "id": 75,
+      "zh": "Pho VieThin",
+      "en": "Pho VieThin",
+      "cuisine": "southeast-asian",
+      "cuisineLabel": "Vietnamese noodles",
+      "vibe": [
+        "cheap-eats",
+        "local-secret"
+      ],
+      "price": "¥60–120",
+      "stars": 2,
+      "lat": 31.218,
+      "lng": 121.458,
+      "address": "Check Dianping",
+      "desc": "Vietnamese pho specialist that converted people who previously avoided spring onions. The stir-fried beef brisket and new crispy prawn cake are standouts.",
+      "dishes": [
+        {
+          "en": "Stir-fried beef brisket pho",
+          "zh": "吊龙爆炒"
+        },
+        {
+          "en": "Crispy prawn cake",
+          "zh": "虾饼"
+        },
+        {
+          "en": "Green papaya tofu salad",
+          "zh": "青木瓜豆腐"
+        }
+      ],
+      "tips": [
+        "The prawn cake is a new addition — very popular",
+        "The papaya tofu is surprisingly light and refreshing",
+        "Gets busy — go on a weekday"
+      ]
+    },
+    {
+      "id": 76,
+      "zh": "Ginger",
+      "en": "Ginger Organic",
+      "cuisine": "southeast-asian",
+      "cuisineLabel": "Organic SE Asian",
+      "vibe": [
+        "instagrammable",
+        "date-night"
+      ],
+      "price": "¥100–180",
+      "stars": 2,
+      "lat": 31.21,
+      "lng": 121.467,
+      "address": "Check Dianping",
+      "desc": "Organic Southeast Asian restaurant with a serene, plant-filled interior. The laksa and organic tofu are exceptional. A calming alternative to the louder end of Shanghai dining.",
+      "dishes": [
+        {
+          "en": "Laksa",
+          "zh": "叻沙"
+        },
+        {
+          "en": "Organic handmade tofu",
+          "zh": "手工有机芝麻豆腐"
+        },
+        {
+          "en": "Yuzu seafood salad",
+          "zh": "柚子海鲜沙拉"
+        }
+      ],
+      "tips": [
+        "Organic ingredients — noticeably fresher than average",
+        "Staff are warm and attentive",
+        "Peaceful atmosphere — good for a quiet dinner"
+      ]
+    },
+    {
+      "id": 77,
+      "zh": "一尺花园",
+      "en": "One Foot Garden",
+      "cuisine": "brunch-cafes",
+      "cuisineLabel": "Cafe in heritage building",
+      "vibe": [
+        "instagrammable",
+        "date-night"
+      ],
+      "price": "¥50–100",
+      "stars": 2,
+      "lat": 31.2148,
+      "lng": 121.453,
+      "address": "Hengshan Road (衡山路), multiple locations",
+      "desc": "A century-old camphor tree wraps around this heritage cafe on Hengshan Road. One of the most photographed cafes in Shanghai — the third-floor terrace is worth the visit alone.",
+      "dishes": [
+        {
+          "en": "Hand-drip coffee",
+          "zh": "手冲咖啡"
+        },
+        {
+          "en": "Seasonal cakes",
+          "zh": "季节蛋糕"
+        }
+      ],
+      "tips": [
+        "Third floor terrace is the best spot — go early",
+        "The camphor tree is 100 years old — genuinely stunning",
+        "Multiple locations but the Hengshan Road original is the one"
+      ]
+    },
+    {
+      "id": 78,
+      "zh": "D.ORINO Coffee",
+      "en": "D.ORINO",
+      "cuisine": "brunch-cafes",
+      "cuisineLabel": "Specialty coffee",
+      "vibe": [
+        "instagrammable",
+        "local-secret"
+      ],
+      "price": "¥35–60",
+      "stars": 2,
+      "lat": 31.232,
+      "lng": 121.448,
+      "address": "833 Kangding Rd (康定路833号)",
+      "desc": "Specialty coffee shop recommended by multiple Shanghai coffee professionals and roasters as a must-visit. Known for precise hand-drip and serious espresso.",
+      "dishes": [
+        {
+          "en": "Hand-drip single origin",
+          "zh": "单品手冲"
+        },
+        {
+          "en": "House espresso",
+          "zh": "浓缩咖啡"
+        }
+      ],
+      "tips": [
+        "Recommended by actual baristas and roasters — high praise",
+        "Serious coffee — not a photo cafe",
+        "Ask the barista for their recommendation"
+      ]
+    },
+    {
+      "id": 79,
+      "zh": "Gregorius SHADE",
+      "en": "Gregorius SHADE",
+      "cuisine": "brunch-cafes",
+      "cuisineLabel": "Specialty coffee",
+      "vibe": [
+        "instagrammable",
+        "local-secret"
+      ],
+      "price": "¥40–70",
+      "stars": 2,
+      "lat": 31.225,
+      "lng": 121.46,
+      "address": "Check Dianping",
+      "desc": "Consistently recommended by Shanghai coffee enthusiasts as one of the best specialty cafes in the city. Precise technique, quality sourcing.",
+      "dishes": [
+        {
+          "en": "Specialty filter coffee",
+          "zh": "精品滤纸咖啡"
+        },
+        {
+          "en": "Espresso drinks",
+          "zh": "意式咖啡"
+        }
+      ],
+      "tips": [
+        "Coffee community favourite — a reliable indicator of quality",
+        "Not a work cafe — come to taste the coffee"
       ]
     }
   ]
