@@ -107,6 +107,13 @@ header{height:52px;border-bottom:2px solid var(--ink);display:flex;align-items:c
 .modal-dish-zh{font-family:"Noto Serif SC",serif;color:#f5c842;}
 .modal-copy{margin-top:1.2rem;width:100%;padding:.72rem;background:var(--red);color:white;border:none;font-family:"DM Sans",sans-serif;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;}
 
+/* FEEDBACK */
+.suggest-btn{display:flex;align-items:center;gap:.5rem;margin-top:1.2rem;padding:.55rem .8rem;border:1px solid var(--border);background:transparent;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:.7rem;cursor:pointer;width:100%;letter-spacing:.05em;transition:all .12s;text-decoration:none;}
+.suggest-btn:hover{border-color:var(--ink);color:var(--ink);background:var(--warm);}
+.fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:500;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;}
+.fab-main{display:flex;align-items:center;gap:.5rem;padding:.6rem 1.1rem;background:var(--ink);color:var(--paper);border:none;font-family:"DM Sans",sans-serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.25);transition:background .12s;text-decoration:none;}
+.fab-main:hover{background:var(--red);}
+
 /* LOADING */
 .loading{position:fixed;inset:0;background:var(--paper);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1rem;z-index:9999;}
 .loading-logo{font-family:"Playfair Display",serif;font-size:2rem;font-weight:700;}
@@ -139,12 +146,11 @@ header{height:52px;border-bottom:2px solid var(--ink);display:flex;align-items:c
       <div class="filter-group">
         <div class="filter-label">By vibe</div>
         <div class="chips" id="sceneChips">
-          <button class="chip" data-scene="cheap-eats">Cheap Eats</button>
-          <button class="chip" data-scene="michelin">Michelin</button>
-          <button class="chip" data-scene="brunch">Brunch</button>
-          <button class="chip" data-scene="groups">Great for Groups</button>
-          <button class="chip" data-scene="foreign-guests">Bring Foreign Guests</button>
-          <button class="chip" data-scene="date-night">Date Night</button>
+          <button class="chip" data-vibe="instagrammable">Instagrammable</button>
+          <button class="chip" data-vibe="cheap-eats">Cheap Eats</button>
+          <button class="chip" data-vibe="date-night">Date Night</button>
+          <button class="chip" data-vibe="local-secret">Local Secret</button>
+          <button class="chip" data-vibe="special-occasion">Special Occasion</button>
         </div>
       </div>
     </div>
@@ -202,17 +208,18 @@ header{height:52px;border-bottom:2px solid var(--ink);display:flex;align-items:c
 const CUISINE_LABELS = {
   all: "All",
   shanghai: "Shanghai",
-  dumplings: "Dumplings",
+  japanese: "Japanese",
   hotpot: "Hotpot",
   "roast-bbq": "Roast & BBQ",
-  noodles: "Noodles",
-  brunch: "Brunch & Cafes",
-  "wine-bar": "Wine & Bar",
+  "dumplings-snacks": "Dumplings & Snacks",
+  taiwanese: "Taiwanese",
+  "southeast-asian": "Southeast Asian",
   "pizza-pasta": "Pizza & Pasta",
-  international: "International"
+  "wine-bar": "Wine & Bar",
+  "brunch-cafes": "Brunch & Cafes"
 };
 
-let restaurants = [], map, markers = {}, activeCuisine = "all", activeScene = null;
+let restaurants = [], map, markers = {}, activeCuisine = "all", activeVibe = null;
 
 // ── LOAD CITY DATA ──
 const params = new URLSearchParams(window.location.search);
@@ -242,8 +249,8 @@ fetch("data/" + cityKey + ".json")
 // ── FILTER ──
 function matchFilter(r) {
   const cuisineOk = activeCuisine === "all" || r.cuisine === activeCuisine;
-  const sceneOk = !activeScene || (r.scene && r.scene.includes(activeScene));
-  return cuisineOk && sceneOk;
+  const vibeOk = !activeVibe || (r.vibe && r.vibe.includes(activeVibe));
+  return cuisineOk && vibeOk;
 }
 
 function renderList() {
@@ -278,15 +285,15 @@ document.getElementById("cuisineChips").addEventListener("click", e => {
 });
 
 document.getElementById("sceneChips").addEventListener("click", e => {
-  const btn = e.target.closest("[data-scene]");
+  const btn = e.target.closest("[data-vibe]");
   if (!btn) return;
   if (btn.classList.contains("scene-active")) {
     btn.classList.remove("scene-active");
-    activeScene = null;
+    activeVibe = null;
   } else {
     document.querySelectorAll("#sceneChips .chip").forEach(c => c.classList.remove("scene-active"));
     btn.classList.add("scene-active");
-    activeScene = btn.dataset.scene;
+    activeVibe = btn.dataset.vibe;
   }
   renderList();
 });
@@ -338,7 +345,11 @@ function showDetail(r) {
     <button class="order-btn" onclick="openOrderModal(${r.id})">📱 Show ordering card to server</button>
     <div class="sec-title">Tips</div>
     ${r.tips.map(t => `<div class="tip-row"><span style="flex-shrink:0;color:var(--ink)">→</span><span>${t}</span></div>`).join("")}
-    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.7rem;color:var(--muted)">📍 ${r.address}</div>`;
+    <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.7rem;color:var(--muted)">📍 ${r.address}</div>
+    <a class="suggest-btn" href="https://tally.so/r/REPLACE_WITH_YOUR_TALLY_ID?restaurant=${encodeURIComponent(r.en)}" target="_blank">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+      Something wrong or missing? Suggest an edit
+    </a>`;
   document.getElementById("dPanel").classList.add("open");
 }
 
@@ -404,5 +415,12 @@ function initMap() {
 }
 </script>
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js" onload="initMap()"></script>
+
+<!-- FLOATING ACTION BUTTON -->
+<div class="fab">
+  <a class="fab-main" href="https://tally.so/r/REPLACE_WITH_YOUR_TALLY_ID" target="_blank">
+    + Add a restaurant
+  </a>
+</div>
 </body>
 </html>
