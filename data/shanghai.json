@@ -22,24 +22,36 @@
       "stars": 3,
       "lat": 31.2409,
       "lng": 121.491,
-      "address": "Bund, Nanjing Road",
+      "address": "中山东二路22号外滩二十二号2楼",
       "desc": "Classic Shanghai home-style cooking with Bund views — great value. Locals return for the braised pork and glazed ribs.",
       "dishes": [
         {
-          "en": "Lane stir-fried glutinous rice balls",
-          "zh": "弄堂炒圆子"
+          "en": "Osmanthus red-braised pork",
+          "zh": "桂花红烧肉"
         },
         {
-          "en": "Osmanthus glazed ribs",
-          "zh": "桂花酱排骨"
+          "en": "Sweet and sour perch",
+          "zh": "松鼠鲈鱼"
         },
         {
-          "en": "Red-braised pork belly",
-          "zh": "红烧肉"
+          "en": "Shanghai white-cut chicken",
+          "zh": "上海白斩鸡"
         },
         {
-          "en": "Sweet and sour Mandarin fish",
-          "zh": "松鼠桂鱼"
+          "en": "Shaoxing wine drunken shrimp",
+          "zh": "花雕熟醉虾"
+        },
+        {
+          "en": "Lions head meatball in chicken broth",
+          "zh": "鸡汤炖狮子头"
+        },
+        {
+          "en": "Green rice ball with cold tofu pudding",
+          "zh": "小青团冰豆花"
+        },
+        {
+          "en": "Lard and cured pork rice",
+          "zh": "猪油险肉菜饭"
         }
       ],
       "tips": [
@@ -269,11 +281,11 @@
         "instagrammable",
         "special-occasion"
       ],
-      "price": "¥150–300",
+      "price": "¥100–150",
       "stars": 2,
       "lat": 31.2402,
       "lng": 121.4905,
-      "address": "Bund, Yuyuan branch",
+      "address": "中山东二路22号外滩22号2楼",
       "desc": "Premium crab banquet with Bund views. Crab roe noodles are outstanding. Request a window seat.",
       "dishes": [
         {
@@ -285,8 +297,16 @@
           "zh": "蟹全宴"
         },
         {
-          "en": "Osmanthus wine dessert",
-          "zh": "桂花酒酿软酪"
+          "en": "Taro mochi",
+          "zh": "芋泥麻薯"
+        },
+        {
+          "en": "Shaoxing wine drunken shrimp",
+          "zh": "花雕熟醉虾"
+        },
+        {
+          "en": "Egg-coated pork chop",
+          "zh": "蛋汁大排"
         }
       ],
       "tips": [
@@ -309,7 +329,7 @@
       "stars": 3,
       "lat": 31.2199,
       "lng": 121.4688,
-      "address": "Multiple locations",
+      "address": "天山路473号112室",
       "desc": "Locals top pick for Japanese BBQ. Exceptional value. The curry stone pot rice is unmissable.",
       "dishes": [
         {
@@ -319,6 +339,14 @@
         {
           "en": "Curry stone pot rice",
           "zh": "咖喱石锅饭"
+        },
+        {
+          "en": "Cheese pork patty",
+          "zh": "芝士猪肉饼"
+        },
+        {
+          "en": "Korean soft tofu soup",
+          "zh": "韩式豆腐汤"
         }
       ],
       "tips": [
@@ -336,16 +364,44 @@
         "date-night",
         "special-occasion"
       ],
-      "price": "¥200–300",
+      "price": "¥400–1000",
       "stars": 2,
       "lat": 31.2251,
       "lng": 121.4737,
-      "address": "Check Dianping",
+      "address": "茂名南路46号二楼",
       "desc": "Upscale hotpot with exceptional fish maw chicken broth. Great for a splurge.",
       "dishes": [
         {
-          "en": "Fish maw chicken broth",
-          "zh": "花胶鸡锅底"
+          "en": "Free-range chicken and fish maw broth",
+          "zh": "走地鸡煲花胶汤底"
+        },
+        {
+          "en": "Three-colour beef platter",
+          "zh": "三色牛肉船"
+        },
+        {
+          "en": "Fried tofu skin rolls",
+          "zh": "炸响铃"
+        },
+        {
+          "en": "Fried corn",
+          "zh": "炸粟米"
+        },
+        {
+          "en": "Chaozhou milk pudding",
+          "zh": "潮州奶冻"
+        },
+        {
+          "en": "Pepper frog leg and sausage claypot rice",
+          "zh": "椒盐蛙腿鸳鸯肠煲仔饭"
+        },
+        {
+          "en": "Black truffle foie gras and cured meat claypot rice",
+          "zh": "黑松露鹅肝腊味煲仔饭"
+        },
+        {
+          "en": "Mango pomelo sago",
+          "zh": "杨枝甘露"
         }
       ],
       "tips": [
@@ -363,16 +419,32 @@
         "date-night",
         "special-occasion"
       ],
-      "price": "¥200–350",
+      "price": "¥500–700",
       "stars": 2,
       "lat": 31.218,
       "lng": 121.4602,
-      "address": "Multiple locations",
+      "address": "虹梅路3081号虹桥基金小镇63栋",
       "desc": "Considered the best Japanese BBQ in Shanghai by many locals. Premium cuts, self-grill.",
       "dishes": [
         {
           "en": "Premium beef daily selection",
           "zh": "精选牛肉"
+        },
+        {
+          "en": "Perilla rice",
+          "zh": "紫苏饭"
+        },
+        {
+          "en": "Custard pudding",
+          "zh": "布丁"
+        },
+        {
+          "en": "Oxtail soup",
+          "zh": "牛尾汤"
+        },
+        {
+          "en": "Chive pancake",
+          "zh": "韭菜饼"
         }
       ],
       "tips": [
@@ -418,16 +490,28 @@
         "special-occasion",
         "local-secret"
       ],
-      "price": "¥300–500",
+      "price": "¥900/person",
       "stars": 2,
       "lat": 31.2418,
       "lng": 121.4887,
-      "address": "Near the Bund",
+      "address": "东育路500弄前滩太古里木区6楼",
       "desc": "One of Shanghai most acclaimed restaurants. Exceptional Zhejiang cuisine — special occasion dining.",
       "dishes": [
         {
-          "en": "Seasonal Zhejiang seafood",
-          "zh": "浙式海鲜"
+          "en": "Sautéed bean vermicelli with shrimp and garlic",
+          "zh": "沙蒜烧豆面"
+        },
+        {
+          "en": "Fish maw and yellow croaker soup",
+          "zh": "花胶黄鱼羹"
+        },
+        {
+          "en": "Crispy pigeon",
+          "zh": "脆皮鸽"
+        },
+        {
+          "en": "Original-style spare ribs",
+          "zh": "原味仔排"
         }
       ],
       "tips": [
@@ -449,16 +533,40 @@
       "stars": 2,
       "lat": 31.223,
       "lng": 121.47,
-      "address": "Multiple locations",
+      "address": "东湖路9号上海地产大厦3F-3M层",
       "desc": "Lively HK-style open kitchen. Satisfying portions, great value, casual atmosphere.",
       "dishes": [
         {
-          "en": "HK-style stir-fries",
-          "zh": "港式小炒"
+          "en": "Temple Street sand chicken",
+          "zh": "庙街风沙鸡"
         },
         {
-          "en": "Roast meats",
-          "zh": "烧腊"
+          "en": "Chicken oil stir-fried pea shoots",
+          "zh": "鸡油炒豆苗"
+        },
+        {
+          "en": "Clear beef brisket soup",
+          "zh": "清汤牛腩"
+        },
+        {
+          "en": "Cured meat and goose intestine claypot rice",
+          "zh": "腊味鹅肠煲仔饭"
+        },
+        {
+          "en": "Chocolate milk pudding",
+          "zh": "朱古力奶冻"
+        },
+        {
+          "en": "Chaozhou milk pudding",
+          "zh": "潮州奶冻"
+        },
+        {
+          "en": "Char siu pork collar",
+          "zh": "梅头叉烧"
+        },
+        {
+          "en": "Stir-fried rice noodles",
+          "zh": "炒米粉"
         }
       ],
       "tips": [
@@ -543,12 +651,36 @@
       "stars": 1,
       "lat": 31.2248,
       "lng": 121.4719,
-      "address": "Check Dianping",
+      "address": "永嘉路570号永嘉庭4号楼",
       "desc": "Creative Taiwanese restaurant. The stir-fried Want Want crackers sounds odd but tastes extraordinary.",
       "dishes": [
         {
-          "en": "Stir-fried Want Want crackers",
-          "zh": "爆炒旺旺仙贝"
+          "en": "Braised beef noodle hot pot",
+          "zh": "眷村红烧牛肉锅"
+        },
+        {
+          "en": "Braised pork rice",
+          "zh": "卤肉饭"
+        },
+        {
+          "en": "House-made preserved plum drink",
+          "zh": "自制珍宝"
+        },
+        {
+          "en": "Preserved olive stir-fried water spinach",
+          "zh": "破布子水莲"
+        },
+        {
+          "en": "Oyster omelette",
+          "zh": "蚵仔煎"
+        },
+        {
+          "en": "Fried chicken with plum sauce",
+          "zh": "鸡排配乌梅子酱"
+        },
+        {
+          "en": "Thai basil stir-fried clams",
+          "zh": "九层塔炒花甲"
         }
       ],
       "tips": [
@@ -570,7 +702,7 @@
       "stars": 1,
       "lat": 31.223,
       "lng": 121.4589,
-      "address": "Check Dianping",
+      "address": "虹桥路1468号6幢2楼L201室",
       "desc": "Most authentic Malaysian restaurant in Shanghai. The Ipoh seafood river noodle is the signature.",
       "dishes": [
         {
@@ -580,6 +712,18 @@
         {
           "en": "Curry prawn with egg",
           "zh": "咖喱蛋香基围虾"
+        },
+        {
+          "en": "Coconut rice",
+          "zh": "椰浆饭"
+        },
+        {
+          "en": "Tom yum soup",
+          "zh": "冬阴功汤"
+        },
+        {
+          "en": "Stir-fried aubergine, green beans and okra",
+          "zh": "马来盏四大天王（炒茄子豆角秋葵）"
         }
       ],
       "tips": [
@@ -601,7 +745,7 @@
       "stars": 1,
       "lat": 31.221,
       "lng": 121.4652,
-      "address": "Multiple locations",
+      "address": "遵义南路88号协泰中心2楼208A号",
       "desc": "Cosy izakaya. The tsukemen dipping noodles have incredible chew. Roasted pigeon leg is memorable.",
       "dishes": [
         {
@@ -611,6 +755,22 @@
         {
           "en": "Roasted pigeon leg",
           "zh": "烤鸽子腿"
+        },
+        {
+          "en": "Chicken skin gyoza",
+          "zh": "鸡皮饺子"
+        },
+        {
+          "en": "Mentaiko courgette",
+          "zh": "明太子西葫芦"
+        },
+        {
+          "en": "Fried horse mackerel",
+          "zh": "炸竹荚鱼"
+        },
+        {
+          "en": "Vinegar-marinated smelt",
+          "zh": "醋泡多春鱼"
         }
       ],
       "tips": [
@@ -630,12 +790,28 @@
       "stars": 2,
       "lat": 31.2255,
       "lng": 121.4735,
-      "address": "Check Dianping",
+      "address": "永嘉路110号",
       "desc": "Shanghai most reliable brunch spot. Consistently good food, friendly service, relaxed setting.",
       "dishes": [
         {
-          "en": "Weekend brunch set",
-          "zh": "周末早午餐"
+          "en": "Super beef panini",
+          "zh": "超级牛肉帕尼尼"
+        },
+        {
+          "en": "Avocado and soft-boiled egg toast",
+          "zh": "牛油果温泉蛋吐司"
+        },
+        {
+          "en": "Black truffle pizza",
+          "zh": "黑松露披萨"
+        },
+        {
+          "en": "Slow-cooked beef and soft-boiled egg toast",
+          "zh": "慢煮牛肉温泉蛋吐司"
+        },
+        {
+          "en": "Eel, avocado and fig wholegrain toast",
+          "zh": "鳗鱼牛油果无花果全麦吐司"
         }
       ],
       "tips": [
@@ -653,11 +829,11 @@
         "special-occasion",
         "instagrammable"
       ],
-      "price": "¥150–500",
+      "price": "¥500/person",
       "stars": 3,
       "lat": 31.2402,
       "lng": 121.4887,
-      "address": "Bund branch recommended",
+      "address": "外滩5号5楼",
       "desc": "Michelin-starred roast duck. International visitors rave about it. Caviar duck skin is the signature.",
       "dishes": [
         {
@@ -665,12 +841,32 @@
           "zh": "鱼子酱片皮鸭"
         },
         {
-          "en": "Tofu with Chinese toon",
-          "zh": "香椿豆腐"
+          "en": "Truffle prawn ball",
+          "zh": "松露大虾球"
         },
         {
-          "en": "Duck carcass soup",
-          "zh": "鸭架汤"
+          "en": "Qianlong white cabbage",
+          "zh": "乾隆白菜"
+        },
+        {
+          "en": "Deep-sea yellow croaker",
+          "zh": "金甲深海大黄鱼"
+        },
+        {
+          "en": "Braised sea cucumber with scallion",
+          "zh": "葱烧海参"
+        },
+        {
+          "en": "Cordyceps flower chicken soup",
+          "zh": "虫草花鸡汤"
+        },
+        {
+          "en": "Crispy prawn ball",
+          "zh": "脆皮明虾球"
+        },
+        {
+          "en": "Tofu with Chinese toon",
+          "zh": "香椿豆腐"
         }
       ],
       "tips": [
@@ -692,16 +888,36 @@
       "stars": 2,
       "lat": 31.228,
       "lng": 121.468,
-      "address": "Check Dianping",
+      "address": "愚园路144号",
       "desc": "Beloved sauerkraut fish. The tangy pickled cabbage broth is addictive. Pair with fried rice.",
       "dishes": [
         {
-          "en": "Sauerkraut fish in broth",
-          "zh": "酸菜鱼"
+          "en": "Sauerkraut black fish hot pot",
+          "zh": "酸菜黑鱼锅"
         },
         {
-          "en": "Egg fried rice",
-          "zh": "蛋炒饭"
+          "en": "Handmade egg dumplings",
+          "zh": "手工蛋饺"
+        },
+        {
+          "en": "Sauerkraut fried rice",
+          "zh": "酸菜炒饭"
+        },
+        {
+          "en": "Hand-minced shrimp paste",
+          "zh": "手打虾滑"
+        },
+        {
+          "en": "Mixed mushroom platter",
+          "zh": "菌菇拼盘"
+        },
+        {
+          "en": "Handmade fish balls",
+          "zh": "手工鱼丸"
+        },
+        {
+          "en": "Osmanthus mung bean shaved ice",
+          "zh": "桂花绿豆刨冰"
         }
       ],
       "tips": [
@@ -719,16 +935,40 @@
         "date-night",
         "special-occasion"
       ],
-      "price": "¥200–400",
+      "price": "¥400–1000",
       "stars": 1,
       "lat": 31.2399,
       "lng": 121.4892,
-      "address": "Bund area",
+      "address": "中山东二路600号BFC外滩金融中心南区三层S301",
       "desc": "Top-tier Fujian cuisine at the Bund. Acclaimed for exceptional seafood and refined flavours.",
       "dishes": [
         {
-          "en": "Fujian-style fresh seafood",
-          "zh": "闽式海鲜"
+          "en": "Steamed red crab rice cake",
+          "zh": "厦门红蟳蒸米糕"
+        },
+        {
+          "en": "Braised taro with onion oil",
+          "zh": "葱头油肉汁焗荔浦芋头"
+        },
+        {
+          "en": "Dahongpao tea jelly",
+          "zh": "大红袍茶冻"
+        },
+        {
+          "en": "Fujian five-spice roll",
+          "zh": "福建五香卷"
+        },
+        {
+          "en": "Fujian Buddha Jumps Over the Wall",
+          "zh": "福建佛跳墙"
+        },
+        {
+          "en": "Xiamen mixed jelly",
+          "zh": "厦门土笋冻"
+        },
+        {
+          "en": "Fujian-style cold shellfish",
+          "zh": "闽式捞汁黄蚬子"
         }
       ],
       "tips": [
@@ -781,20 +1021,36 @@
       "stars": 2,
       "lat": 31.2399,
       "lng": 121.4887,
-      "address": "Multiple locations",
+      "address": "淮海中路282号香港广场北座3层",
       "desc": "Excellent Peking Duck chain beloved by foreign visitors. Crispy skin dipped in white sugar changes people.",
       "dishes": [
         {
-          "en": "Roast Peking duck",
-          "zh": "烤鸭"
+          "en": "Crispy aromatic roast duck",
+          "zh": "酥香嫩烤鸭"
         },
         {
-          "en": "Duck carcass soup",
-          "zh": "鸭架"
+          "en": "Tossed pea shoots",
+          "zh": "巧拌豆苗"
         },
         {
-          "en": "Duck blood tofu",
-          "zh": "鸭血旺"
+          "en": "Beile roast meat",
+          "zh": "贝勒烤肉"
+        },
+        {
+          "en": "Beijing-style tripe",
+          "zh": "京味爆肚"
+        },
+        {
+          "en": "Honey crispy prawn",
+          "zh": "蜜汁酥皮虾"
+        },
+        {
+          "en": "Zhajiang noodles",
+          "zh": "炸酱面"
+        },
+        {
+          "en": "Salt and pepper duck rack",
+          "zh": "椒盐鸭架"
         }
       ],
       "tips": [
@@ -815,16 +1071,32 @@
       "stars": 2,
       "lat": 31.219,
       "lng": 121.459,
-      "address": "Check Dianping",
+      "address": "富民路148弄1甲",
       "desc": "Favourite Spanish restaurant of the Shanghai expat community. The spicy potatoes alone are worth the visit.",
       "dishes": [
         {
-          "en": "Spicy potatoes patatas bravas",
-          "zh": "辣味土豆"
+          "en": "Pistachio duck liver balls",
+          "zh": "开心果鸭肝球"
         },
         {
-          "en": "Spanish tapas",
-          "zh": "西班牙小食"
+          "en": "Garlic olive oil shrimp",
+          "zh": "蒜味橄榄油虾"
+        },
+        {
+          "en": "Stuffed sweet peppers",
+          "zh": "甜椒填肉"
+        },
+        {
+          "en": "Fried ham and cream balls",
+          "zh": "炸火腿奶油球"
+        },
+        {
+          "en": "Spicy fried potatoes",
+          "zh": "辣味炸土豆"
+        },
+        {
+          "en": "Smashed egg and potato",
+          "zh": "碎蛋盖土豆"
         }
       ],
       "tips": [
@@ -846,7 +1118,7 @@
       "stars": 2,
       "lat": 31.2192,
       "lng": 121.456,
-      "address": "Check Dianping",
+      "address": "长乐路946弄4号一层",
       "desc": "Beloved Italian family restaurant. Expat families keep coming back for unpretentious home-cooking Italian.",
       "dishes": [
         {
@@ -913,16 +1185,40 @@
       "stars": 2,
       "lat": 31.222,
       "lng": 121.466,
-      "address": "Check Dianping",
+      "address": "武康路378号2楼",
       "desc": "Stylish modern Sichuan with dramatic teahouse interior. Top recommendation for impressing foreign guests.",
       "dishes": [
         {
           "en": "Basil Drop cocktail",
-          "zh": "Basil Drop"
+          "zh": "滴滴罗勒叶"
         },
         {
-          "en": "Modern Sichuan dishes",
-          "zh": "改良川菜"
+          "en": "Poached fish in chilli broth",
+          "zh": "水煮鱼"
+        },
+        {
+          "en": "Spicy frog",
+          "zh": "馋嘴牛蛙"
+        },
+        {
+          "en": "Blood curd and offal in chilli broth",
+          "zh": "毛血旺"
+        },
+        {
+          "en": "Longmen strange-flavour noodles",
+          "zh": "龙门怪味面"
+        },
+        {
+          "en": "Stir-fried yellow throat",
+          "zh": "火爆黄喉"
+        },
+        {
+          "en": "Tofu flower in chicken broth",
+          "zh": "鸡汤豆腐花"
+        },
+        {
+          "en": "Ginger spinach",
+          "zh": "姜汁菠菜"
         }
       ],
       "tips": [
@@ -933,7 +1229,7 @@
     {
       "id": 32,
       "zh": "花马天堂",
-      "en": "Yunnan Heaven",
+      "en": "Lost Heaven",
       "cuisine": "shanghai",
       "cuisineLabel": "Yunnan cuisine",
       "vibe": [
@@ -944,16 +1240,28 @@
       "stars": 2,
       "lat": 31.2408,
       "lng": 121.49,
-      "address": "Near the Bund",
+      "address": "延安东路17号甲",
       "desc": "Atmospheric Yunnan restaurant near the Bund. Silk Road decor wows foreign guests every time.",
       "dishes": [
         {
-          "en": "Yunnan wild mushroom dishes",
-          "zh": "云南野生菌菜"
+          "en": "Yunnan wild vegetable pancake",
+          "zh": "云南野菜饼"
         },
         {
-          "en": "Cross-bridge rice noodle",
-          "zh": "过桥米线"
+          "en": "Dali-style scallion pepper chicken",
+          "zh": "大理风味葱椒鸡"
+        },
+        {
+          "en": "Shrimp paste stir-fried green beans",
+          "zh": "虾酱炒四季豆"
+        },
+        {
+          "en": "Blue Phoenix sour and spicy shrimp",
+          "zh": "蓝凤凰酸辣虾"
+        },
+        {
+          "en": "Burmese milk tea",
+          "zh": "缅式奶茶"
         }
       ],
       "tips": [
@@ -963,28 +1271,56 @@
     },
     {
       "id": 33,
-      "zh": "朱雀茶室",
-      "en": "Zhuque Teahouse",
+      "zh": "惠食佳·朱雀",
+      "en": "Huishijia Zhuque",
       "cuisine": "shanghai",
       "cuisineLabel": "Cantonese with palace decor",
       "vibe": [
         "instagrammable",
         "date-night"
       ],
-      "price": "¥200–350",
+      "price": "¥100–300",
       "stars": 2,
       "lat": 31.225,
       "lng": 121.475,
-      "address": "Check Dianping",
+      "address": "锦康路252号世纪金融广场7号楼4楼",
       "desc": "Elaborate Chinese palace decor meets solid Cantonese cooking. Foreign guests love the theatricality.",
       "dishes": [
         {
-          "en": "Claypot rice",
-          "zh": "煲仔饭"
+          "en": "Salt-baked squab",
+          "zh": "盐焗乳鸽"
         },
         {
-          "en": "Cantonese roast meats",
-          "zh": "粤式烧腊"
+          "en": "Cured meat claypot rice",
+          "zh": "腊味煲仔饭"
+        },
+        {
+          "en": "Sachima pastry",
+          "zh": "萨琪码"
+        },
+        {
+          "en": "Oyster omelette",
+          "zh": "蚝仔烙"
+        },
+        {
+          "en": "Spicy soy-braised frog",
+          "zh": "酱香啫牛蛙"
+        },
+        {
+          "en": "Har gow (shrimp dumplings)",
+          "zh": "虾饺"
+        },
+        {
+          "en": "Tangerine peel red bean soup",
+          "zh": "陈皮红豆沙"
+        },
+        {
+          "en": "Zhuangyuan red ice cream",
+          "zh": "状元红雪糕"
+        },
+        {
+          "en": "Pan-fried turnip cake",
+          "zh": "香煎萝卜糕"
         }
       ],
       "tips": [
@@ -1274,7 +1610,7 @@
       "stars": 3,
       "lat": 31.238,
       "lng": 121.476,
-      "address": "Check Dianping",
+      "address": "苍梧路10号（光里）",
       "desc": "Cult-favourite Chongqing hotpot. Six-time returnees call it the best in Shanghai.",
       "dishes": [
         {
@@ -1288,6 +1624,34 @@
         {
           "en": "Handmade sweet potato noodles",
           "zh": "手工苕皮"
+        },
+        {
+          "en": "Soft-braised beef",
+          "zh": "耙牛肉"
+        },
+        {
+          "en": "Tender beef slices",
+          "zh": "嫩牛肉"
+        },
+        {
+          "en": "Soft-braised chicken feet",
+          "zh": "耙鸡脚"
+        },
+        {
+          "en": "Celtuce",
+          "zh": "贡菜"
+        },
+        {
+          "en": "Caramel tofu pudding",
+          "zh": "焦糖豆花"
+        },
+        {
+          "en": "Egg fried rice",
+          "zh": "蛋炒饭"
+        },
+        {
+          "en": "Hand-pounded glutinous rice cake",
+          "zh": "手打糍粑"
         }
       ],
       "tips": [
@@ -1343,7 +1707,7 @@
       "stars": 2,
       "lat": 31.228,
       "lng": 121.469,
-      "address": "Check Dianping",
+      "address": "苗圃路116号",
       "desc": "Premium Chaoshan-style beef hotpot — not spicy at all. Ultra-fresh cuts in a clear broth. A must for beef lovers.",
       "dishes": [
         {
@@ -1374,20 +1738,44 @@
       "stars": 2,
       "lat": 31.227,
       "lng": 121.468,
-      "address": "Check Dianping",
+      "address": "九江路295号",
       "desc": "Tangy Yunnan-style beef and sauerkraut hotpot. Lighter than Sichuan — great for spice-sensitive eaters.",
       "dishes": [
         {
-          "en": "Sauerkraut beef hotpot",
-          "zh": "酸菜牛肉"
+          "en": "Sauerkraut hot pot broth",
+          "zh": "酸菜锅底"
         },
         {
-          "en": "Black fish",
-          "zh": "黑鱼"
+          "en": "Bursting tofu",
+          "zh": "包浆豆腐"
         },
         {
-          "en": "Brisket",
-          "zh": "胸口捞"
+          "en": "Yunnan yellow beef",
+          "zh": "云南黄牛肉"
+        },
+        {
+          "en": "Pickled radish strips",
+          "zh": "酸萝卜丝"
+        },
+        {
+          "en": "Sour and spicy broth",
+          "zh": "酸辣锅底"
+        },
+        {
+          "en": "Mengzi rice cake",
+          "zh": "蒙自饵块"
+        },
+        {
+          "en": "Honghe rice noodles",
+          "zh": "红河米线"
+        },
+        {
+          "en": "Red fermented milk cap mushroom",
+          "zh": "红乳牛肝菌"
+        },
+        {
+          "en": "Wild ginger beef",
+          "zh": "木姜子牛肉"
         }
       ],
       "tips": [
@@ -1428,8 +1816,8 @@
     },
     {
       "id": 48,
-      "zh": "火烧云",
-      "en": "Huo Shao Yun",
+      "zh": "火燒雲傣家菜",
+      "en": "Huo Shao Yun Dai Cuisine",
       "cuisine": "shanghai",
       "cuisineLabel": "Yunnan cuisine",
       "vibe": [
@@ -1440,7 +1828,7 @@
       "stars": 2,
       "lat": 31.2281,
       "lng": 121.4701,
-      "address": "Multiple locations citywide",
+      "address": "南京西路1601号芮欧百货4层4A",
       "desc": "Popular Yunnan chain that locals genuinely love. The black bean mashed pork is legendary.",
       "dishes": [
         {
@@ -1450,6 +1838,34 @@
         {
           "en": "Yunnan rice noodle soup",
           "zh": "过桥米线"
+        },
+        {
+          "en": "Braised chicken",
+          "zh": "油焖鸡"
+        },
+        {
+          "en": "Garlic chicken feet",
+          "zh": "蒜香鸡脚"
+        },
+        {
+          "en": "Beef rice noodles",
+          "zh": "牛肉饵丝"
+        },
+        {
+          "en": "Stir-fried water spinach with sour bamboo shoots",
+          "zh": "酸笋炒空心菜"
+        },
+        {
+          "en": "House-brewed rice wine",
+          "zh": "自酿米酒"
+        },
+        {
+          "en": "Rose peanut ice jelly",
+          "zh": "玫瑰花生冰粉"
+        },
+        {
+          "en": "Thai-style coconut dessert",
+          "zh": "泡鲁达"
         }
       ],
       "tips": [
@@ -1472,7 +1888,7 @@
       "stars": 2,
       "lat": 31.222,
       "lng": 121.465,
-      "address": "Check Dianping",
+      "address": "新华路街道延安西路1394号1幢1室",
       "desc": "Creative Northwest China bistro that wowed locals when the owner of Xinrongji showed up to eat. Braised beef ribs, garlic lamb, and a bruschetta with braised cartilage and burrata.",
       "dishes": [
         {
@@ -1486,6 +1902,22 @@
         {
           "en": "Braised cartilage with burrata",
           "zh": "西府卤制脆骨布拉塔"
+        },
+        {
+          "en": "Potato dipped in potato",
+          "zh": "土豆沾土豆"
+        },
+        {
+          "en": "Triple combo Biang Biang noodles",
+          "zh": "三合一BiangBiang面"
+        },
+        {
+          "en": "Persimmon and cream cheese dessert",
+          "zh": "柿饼奶皮子"
+        },
+        {
+          "en": "Sichuan pepper chicken salad",
+          "zh": "椒麻鸡沙拉"
         }
       ],
       "tips": [
@@ -1504,20 +1936,44 @@
         "date-night",
         "local-secret"
       ],
-      "price": "¥150–250",
+      "price": "¥400–600",
       "stars": 2,
       "lat": 31.2198,
       "lng": 121.455,
-      "address": "Check Dianping — reservation required",
+      "address": "东平路11号-102",
       "desc": "Small, atmospheric creative bistro that locals keep returning to. Space is intimate, pasta has exceptional chew. Reservation essential.",
       "dishes": [
         {
-          "en": "Creative pasta (changes seasonally)",
-          "zh": "创意意面"
+          "en": "Italian handmade short pasta",
+          "zh": "意式手工短面"
         },
         {
-          "en": "Small plates to share",
-          "zh": "小食拼盘"
+          "en": "Braised pigeon with sauerkraut",
+          "zh": "酸菜鸽子"
+        },
+        {
+          "en": "Wagyu beef belly",
+          "zh": "和牛牛腹肉"
+        },
+        {
+          "en": "Sweet shrimp",
+          "zh": "甜虾"
+        },
+        {
+          "en": "Foie gras with Shaoxing wine and silver ear fungus",
+          "zh": "鹅肝黄酒银耳"
+        },
+        {
+          "en": "Sourdough bread",
+          "zh": "酸面包"
+        },
+        {
+          "en": "Black sesame puff",
+          "zh": "黑芝麻泡芙"
+        },
+        {
+          "en": "Pandan rice pudding",
+          "zh": "斑斓米布丁"
         }
       ],
       "tips": [
@@ -1536,12 +1992,12 @@
         "cheap-eats",
         "instagrammable"
       ],
-      "price": "¥100–150",
+      "price": "¥100–200",
       "stars": 2,
       "lat": 31.2255,
       "lng": 121.46,
-      "address": "Check Dianping",
-      "desc": "The go-to for what locals call white people food (白人饭). The shakshuka is famous. Consistently recommended as a reliable all-day bistro.",
+      "address": "富民路179号1楼",
+      "desc": "Reliable all-day European bistro on Fum in Road. The shakshuka is famous. Consistently recommended by Shanghai locals.",
       "dishes": [
         {
           "en": "Shakshuka North African baked eggs",
@@ -1550,6 +2006,18 @@
         {
           "en": "Brunch plates",
           "zh": "早午餐"
+        },
+        {
+          "en": "Sous-vide beef with fried egg and coriander sauce",
+          "zh": "低温牛肉配煎蛋香菜酱"
+        },
+        {
+          "en": "Cream fig toast",
+          "zh": "奶油无花果吐司"
+        },
+        {
+          "en": "Tarragon fried chicken with jalapeño cream sauce",
+          "zh": "龙蒿草炸鸡配墨西哥辣椒奶油酱"
         }
       ],
       "tips": [
@@ -1596,8 +2064,8 @@
     },
     {
       "id": 53,
-      "zh": "威皇",
-      "en": "Wei Huang",
+      "zh": "威皇广福和小海鲜",
+      "en": "Weihuang Seafood",
       "cuisine": "shanghai",
       "cuisineLabel": "Cantonese claypot",
       "vibe": [
@@ -1608,7 +2076,7 @@
       "stars": 2,
       "lat": 31.226,
       "lng": 121.47,
-      "address": "Check Dianping",
+      "address": "襄阳南路215号",
       "desc": "Beloved for its drunken chicken claypot and claypot rice. A winter comfort food institution consistently recommended alongside the best Shanghai restaurants.",
       "dishes": [
         {
@@ -1618,6 +2086,22 @@
         {
           "en": "Claypot rice",
           "zh": "煲仔饭"
+        },
+        {
+          "en": "Fresh seasonal seafood",
+          "zh": "海鲜品牌"
+        },
+        {
+          "en": "Five-flower beef",
+          "zh": "五花牛肉"
+        },
+        {
+          "en": "Salted egg yolk fish skin",
+          "zh": "咸蛋黄鱼皮"
+        },
+        {
+          "en": "Scallion oil razor clams",
+          "zh": "葱油蛏子"
         }
       ],
       "tips": [
@@ -1640,16 +2124,36 @@
       "stars": 2,
       "lat": 31.224,
       "lng": 121.468,
-      "address": "Check Dianping",
+      "address": "西康路1117号1层（鸿寿坊外围，西康路上）",
       "desc": "Hunan restaurant with a devoted local following. Bold, spicy, satisfying.",
       "dishes": [
         {
-          "en": "Hunan-style spicy dishes",
-          "zh": "湘菜"
+          "en": "Duck feet tendon stir-fried with brisket fat",
+          "zh": "鸭脚筋炒胸口油"
         },
         {
-          "en": "Signature spicy stir-fries",
-          "zh": "辣味小炒"
+          "en": "Pounded chilli with century egg",
+          "zh": "擂辣椒皮蛋"
+        },
+        {
+          "en": "Vinegar-stir-fried eggs",
+          "zh": "醋炒鸡蛋"
+        },
+        {
+          "en": "Lard mixed rice",
+          "zh": "猪油拌饭"
+        },
+        {
+          "en": "Coin-shaped eggs",
+          "zh": "金钱蛋"
+        },
+        {
+          "en": "Dry-pot pork intestine and deboned meat",
+          "zh": "干锅肥肠拆骨肉"
+        },
+        {
+          "en": "Stir-fried yellow beef",
+          "zh": "小炒黄牛肉"
         }
       ],
       "tips": [
@@ -1671,16 +2175,32 @@
       "stars": 2,
       "lat": 31.218,
       "lng": 121.459,
-      "address": "Check Dianping (not the Gubei branch)",
+      "address": "虹桥路一号港汇恒隆广场南座一楼160商铺",
       "desc": "Top yakitori (grilled skewers) restaurant recommended by locals. Serious Japanese grilling technique, intimate atmosphere.",
       "dishes": [
         {
-          "en": "Yakitori skewers chef selection",
-          "zh": "烧鸟串烧"
+          "en": "Perilla chicken leg",
+          "zh": "紫苏鸡腿"
         },
         {
-          "en": "Premium chicken cuts on skewer",
-          "zh": "特选鸡肉串"
+          "en": "Green chilli chicken giblets",
+          "zh": "青椒鸡杂"
+        },
+        {
+          "en": "Mushroom stir-fried beef tongue",
+          "zh": "菌菇炒牛舌"
+        },
+        {
+          "en": "Chicken liver mousse",
+          "zh": "鸡肝慕斯"
+        },
+        {
+          "en": "Eel rice",
+          "zh": "鳗鱼饭"
+        },
+        {
+          "en": "Various yakitori skewers",
+          "zh": "各种烧鸟"
         }
       ],
       "tips": [
@@ -1726,42 +2246,6 @@
       ]
     },
     {
-      "id": 58,
-      "zh": "La Siesta",
-      "en": "La Siesta",
-      "cuisine": "wine-bar",
-      "cuisineLabel": "Authentic Spanish tapas",
-      "vibe": [
-        "date-night",
-        "local-secret"
-      ],
-      "price": "¥200–300",
-      "stars": 2,
-      "lat": 31.221,
-      "lng": 121.463,
-      "address": "Check Dianping",
-      "desc": "Endorsed by Spanish expats as the most authentic tapas in Shanghai. The garlic shrimp signals the quality immediately.",
-      "dishes": [
-        {
-          "en": "Garlic shrimp gambas al ajillo",
-          "zh": "蒜香橄榄油虾"
-        },
-        {
-          "en": "Marinated olives",
-          "zh": "腌渍橄榄"
-        },
-        {
-          "en": "Spanish tapas selection",
-          "zh": "西班牙小食"
-        }
-      ],
-      "tips": [
-        "Endorsed by Spanish expats — the real thing",
-        "No paella here — tapas only",
-        "The olives are considered the best in Shanghai"
-      ]
-    },
-    {
       "id": 59,
       "zh": "TOMATITO",
       "en": "TOMATITO",
@@ -1798,8 +2282,8 @@
     },
     {
       "id": 60,
-      "zh": "Villa Le Bec",
-      "en": "Villa Le Bec",
+      "zh": "Le Bec Bund",
+      "en": "Le Bec Bund",
       "cuisine": "wine-bar",
       "cuisineLabel": "Classic French",
       "vibe": [
@@ -1810,20 +2294,24 @@
       "stars": 2,
       "lat": 31.214,
       "lng": 121.452,
-      "address": "Check Dianping",
+      "address": "汉口路201号外滩老市府红楼",
       "desc": "Shanghai French dining institution. Still considered the best classic French in the city. Black truffle pasta and beef eye fillet are signatures.",
       "dishes": [
         {
-          "en": "Black truffle pasta",
-          "zh": "黑松露意面"
+          "en": "Mixed seafood casserole",
+          "zh": "混合海鲜小炖锅"
         },
         {
-          "en": "Beef eye fillet",
-          "zh": "牛眼肉"
+          "en": "Gratin scallops",
+          "zh": "焗烤扇贝"
         },
         {
-          "en": "Foie gras",
-          "zh": "鹅肝酱"
+          "en": "Cheese tomato basil sandwich",
+          "zh": "芝士番茄罗勒三明治"
+        },
+        {
+          "en": "Baby gem lettuce with anchovy and white vinegar",
+          "zh": "生菜心鳀鱼佐白醋汁"
         }
       ],
       "tips": [
@@ -1878,13 +2366,17 @@
         "instagrammable",
         "date-night"
       ],
-      "price": "¥500–800",
+      "price": "¥900/person",
       "stars": 2,
       "lat": 31.2408,
       "lng": 121.4887,
-      "address": "Bund 3, 4F",
+      "address": "外滩街道中山东一路3号外滩三号4楼(近广东路)",
       "desc": "One of the most famous Western restaurants at the Bund. Creative French with Asian influences. Go for lunch for better light.",
       "dishes": [
+        {
+          "en": "Patagonian toothfish with asparagus",
+          "zh": "法国银鳕鱼配芦笋"
+        },
         {
           "en": "Foie gras with sour cherry",
           "zh": "法式鹅肝配酸樱桃"
@@ -1892,51 +2384,11 @@
         {
           "en": "King crab with sweet peas",
           "zh": "帝王蟹配甜豆"
-        },
-        {
-          "en": "Patagonian toothfish",
-          "zh": "南极银鳕鱼"
         }
       ],
       "tips": [
         "Go for lunch — better light for photos",
         "Worth every yuan for a special occasion"
-      ]
-    },
-    {
-      "id": 63,
-      "zh": "鮨米禾",
-      "en": "Sushi Mihe",
-      "cuisine": "japanese",
-      "cuisineLabel": "Japanese rice bowls",
-      "vibe": [
-        "cheap-eats",
-        "instagrammable"
-      ],
-      "price": "¥50–100",
-      "stars": 2,
-      "lat": 31.227,
-      "lng": 121.471,
-      "address": "Check Dianping",
-      "desc": "Locals call it the Saizeriya of Japanese food — ridiculously good value. The wagyu sea urchin tartare and beef burger rice bowl are must-orders.",
-      "dishes": [
-        {
-          "en": "Wagyu and sea urchin tartare",
-          "zh": "和牛海胆塔塔"
-        },
-        {
-          "en": "Beef burger rice bowl",
-          "zh": "牛肉汉堡扒泡饭"
-        },
-        {
-          "en": "Caramel ice cream pudding",
-          "zh": "焦糖冰淇淋布丁"
-        }
-      ],
-      "tips": [
-        "Genuinely cheap for the quality — under 100 per person",
-        "The rainbow bowl is great for photos",
-        "Popular — arrive early to avoid queues"
       ]
     },
     {
@@ -1953,20 +2405,32 @@
       "stars": 2,
       "lat": 31.226,
       "lng": 121.475,
-      "address": "Check Dianping",
+      "address": "九江路686号103室（广西北路燕云楼旁小巷内）",
       "desc": "Atmospheric yakitori izakaya with a stunning interior. The rainbow bowl and black truffle foie gras rice are as photogenic as they are delicious.",
       "dishes": [
         {
-          "en": "Rainbow bowl",
-          "zh": "彩虹饭"
+          "en": "Various yakitori skewers",
+          "zh": "各类烧鸟"
         },
         {
-          "en": "Black truffle foie gras rice bowl",
-          "zh": "黑松露流心鹅肝饭"
+          "en": "Secret-recipe fried chicken",
+          "zh": "秘制炸鸡块"
         },
         {
-          "en": "Fresh shrimp and sea urchin skewer",
-          "zh": "紫虾鲜籽"
+          "en": "Butter potatoes",
+          "zh": "黄油土豆"
+        },
+        {
+          "en": "Sukiyaki hot pot",
+          "zh": "寿喜锅"
+        },
+        {
+          "en": "Basil stir-fried yellow throat",
+          "zh": "罗勒叶爆黄喉"
+        },
+        {
+          "en": "Apple foie gras rice",
+          "zh": "苹果鹅肝饭"
         }
       ],
       "tips": [
@@ -2052,7 +2516,7 @@
       "zh": "金匠寿司",
       "en": "Jin Jiang Sushi",
       "cuisine": "japanese",
-      "cuisineLabel": "Japanese sushi bar",
+      "cuisineLabel": "Conveyor belt sushi",
       "vibe": [
         "cheap-eats",
         "date-night"
@@ -2061,8 +2525,8 @@
       "stars": 2,
       "lat": 31.2255,
       "lng": 121.47,
-      "address": "Check Dianping",
-      "desc": "The go-to spot when locals crave foie gras sushi without breaking the bank. Consistent, reliable, and genuinely satisfying.",
+      "address": "徐家汇街道美罗城A区3楼",
+      "desc": "Conveyor belt sushi at Xujiahui mall with excellent-value foie gras sushi. A reliable spot for a casual Japanese meal.",
       "dishes": [
         {
           "en": "Foie gras sushi",
@@ -2093,20 +2557,40 @@
       "stars": 2,
       "lat": 31.219,
       "lng": 121.462,
-      "address": "Multiple locations",
+      "address": "华山路1038弄161号环保大楼103室",
       "desc": "Beloved Taiwanese street food institution with multiple Shanghai locations. Salt-fried chicken and braised pork rice at 15 yuan — locals queue for both. Three people eat well for 50 yuan each.",
       "dishes": [
         {
-          "en": "Salt-fried chicken (yansuji)",
+          "en": "Braised pork rice",
+          "zh": "卤肉饭"
+        },
+        {
+          "en": "Large and small intestine combo",
+          "zh": "大肠拼小肠"
+        },
+        {
+          "en": "Stinky tofu",
+          "zh": "臭豆腐"
+        },
+        {
+          "en": "Salt-fried chicken",
           "zh": "盐酥鸡"
         },
         {
-          "en": "Braised pork rice",
-          "zh": "卤肉饭 ¥15"
+          "en": "Minced pork rice",
+          "zh": "肉燥饭"
         },
         {
-          "en": "Taiwanese oyster vermicelli",
-          "zh": "蚵仔大肠面线"
+          "en": "Blanched sweet potato leaves",
+          "zh": "烫地瓜叶"
+        },
+        {
+          "en": "Garlic fresh oysters",
+          "zh": "蒜泥鲜蚵"
+        },
+        {
+          "en": "Pork offal thick soup",
+          "zh": "肉羹汤"
         }
       ],
       "tips": [
@@ -2169,7 +2653,7 @@
       "stars": 1,
       "lat": 31.22,
       "lng": 121.46,
-      "address": "Check Dianping",
+      "address": "浦东大道599号",
       "desc": "Recommended by Taiwanese expats living in Shanghai as one of the most reliable and authentic Taiwanese restaurants in the city.",
       "dishes": [
         {
@@ -2177,12 +2661,32 @@
           "zh": "三杯鸡"
         },
         {
-          "en": "Taiwanese sausage with garlic",
-          "zh": "台湾香肠夹蒜片"
-        },
-        {
           "en": "Braised pork rice",
           "zh": "卤肉饭"
+        },
+        {
+          "en": "Pineapple prawn balls",
+          "zh": "凤梨虾球"
+        },
+        {
+          "en": "Barrel chicken",
+          "zh": "桶仔鸡"
+        },
+        {
+          "en": "Taro duck",
+          "zh": "芋泥鸭方"
+        },
+        {
+          "en": "Peanut ice blended drink",
+          "zh": "花生冰沙"
+        },
+        {
+          "en": "Pepper shrimp",
+          "zh": "胡椒虾"
+        },
+        {
+          "en": "Stir-fried mountain vegetable with preserved olive",
+          "zh": "甘树子炒山苏"
         }
       ],
       "tips": [
@@ -2204,7 +2708,7 @@
       "stars": 2,
       "lat": 31.224,
       "lng": 121.47,
-      "address": "Check Dianping",
+      "address": "延安西路666号",
       "desc": "Thai-certified as the most authentic Thai restaurant in Shanghai. The owner is Bangkok-Chinese and cooks personally — no delivery, no compromise. The roast chicken, pad thai, and pineapple fried rice are unmissable.",
       "dishes": [
         {
@@ -2218,48 +2722,28 @@
         {
           "en": "Pineapple fried rice",
           "zh": "菠萝炒饭"
+        },
+        {
+          "en": "Stir-fried minced pork with water spinach",
+          "zh": "肉末空心菜"
+        },
+        {
+          "en": "Tom yum shrimp soup",
+          "zh": "冬阴功汤虾"
+        },
+        {
+          "en": "Thai milk tea",
+          "zh": "奶茶"
+        },
+        {
+          "en": "Thai basil minced pork rice",
+          "zh": "罗勒肉末饭"
         }
       ],
       "tips": [
         "No delivery — come in person, worth it",
         "Thai expats call this the most authentic in Shanghai",
         "The Thai milk tea is dangerously strong"
-      ]
-    },
-    {
-      "id": 72,
-      "zh": "虹泰 BenJaRong",
-      "en": "BenJaRong Thai",
-      "cuisine": "southeast-asian",
-      "cuisineLabel": "Upscale Thai",
-      "vibe": [
-        "date-night",
-        "instagrammable"
-      ],
-      "price": "¥120–200",
-      "stars": 2,
-      "lat": 31.225,
-      "lng": 121.471,
-      "address": "Check Dianping",
-      "desc": "Upscale Thai restaurant that surprised even seasoned diners. The lychee stir-fried chicken is the signature dish almost no one else offers. Fine dining sensibility with authentic Thai flavours.",
-      "dishes": [
-        {
-          "en": "Lychee stir-fried chicken",
-          "zh": "荔枝炒鸡肉"
-        },
-        {
-          "en": "Green papaya salad (large)",
-          "zh": "木瓜色拉"
-        },
-        {
-          "en": "Tom yum soup",
-          "zh": "冬阴功汤"
-        }
-      ],
-      "tips": [
-        "The lychee chicken is unique — order it without question",
-        "Menu features dishes rarely seen outside Thailand",
-        "Better rice than most Thai restaurants — they use Thai jasmine rice"
       ]
     },
     {
@@ -2273,11 +2757,11 @@
         "instagrammable",
         "cheap-eats"
       ],
-      "price": "¥80–130",
+      "price": "¥60–200",
       "stars": 3,
       "lat": 31.218,
       "lng": 121.452,
-      "address": "Check Dianping (Xuhui area)",
+      "address": "新乐路145号",
       "desc": "Zero advertising, pure word-of-mouth — became the number one Southeast Asian restaurant in Xuhui within 14 days of opening. P person converted to J person to queue here. The owner cooks everything personally.",
       "dishes": [
         {
@@ -2285,12 +2769,32 @@
           "zh": "打抛饭"
         },
         {
-          "en": "Coconut milk rice with whole chicken leg",
-          "zh": "椰浆饭"
+          "en": "Tom yum seafood thick soup",
+          "zh": "冬阴功海鲜浓汤"
         },
         {
-          "en": "Tom yum seafood hotpot",
-          "zh": "冬阴功海鲜锅"
+          "en": "Curry shrimp",
+          "zh": "咖喱虾"
+        },
+        {
+          "en": "Thai milk tea",
+          "zh": "泰奶"
+        },
+        {
+          "en": "Stir-fried water spinach with soybean paste",
+          "zh": "炒豆酱空心菜"
+        },
+        {
+          "en": "Green mango and squid salad",
+          "zh": "青芒果拌鱿鱼"
+        },
+        {
+          "en": "Slow-braised pork ribs",
+          "zh": "慢炖猪排骨"
+        },
+        {
+          "en": "Mango fish sauce fried fish",
+          "zh": "芒果鱼露炸鱼"
         }
       ],
       "tips": [
@@ -2349,13 +2853,9 @@
       "stars": 2,
       "lat": 31.218,
       "lng": 121.458,
-      "address": "Check Dianping",
+      "address": "进贤路120号",
       "desc": "Vietnamese pho specialist that converted people who previously avoided spring onions. The stir-fried beef brisket and new crispy prawn cake are standouts.",
       "dishes": [
-        {
-          "en": "Stir-fried beef brisket pho",
-          "zh": "吊龙爆炒"
-        },
         {
           "en": "Crispy prawn cake",
           "zh": "虾饼"
@@ -2363,6 +2863,18 @@
         {
           "en": "Green papaya tofu salad",
           "zh": "青木瓜豆腐"
+        },
+        {
+          "en": "Stir-fried beef rice noodle soup",
+          "zh": "爆炒牛肉汤粉"
+        },
+        {
+          "en": "Classic beef pho",
+          "zh": "经典牛肉河粉"
+        },
+        {
+          "en": "Lemongrass fried chicken wings",
+          "zh": "香茅炸鸡翅"
         }
       ],
       "tips": [
@@ -2374,18 +2886,18 @@
     {
       "id": 76,
       "zh": "Ginger",
-      "en": "Ginger Organic",
+      "en": "Ginger",
       "cuisine": "southeast-asian",
-      "cuisineLabel": "Organic SE Asian",
+      "cuisineLabel": "融合菜",
       "vibe": [
         "instagrammable",
         "date-night"
       ],
-      "price": "¥100–180",
+      "price": "¥100–200",
       "stars": 2,
       "lat": 31.21,
       "lng": 121.467,
-      "address": "Check Dianping",
+      "address": "兴国路91号",
       "desc": "Organic Southeast Asian restaurant with a serene, plant-filled interior. The laksa and organic tofu are exceptional. A calming alternative to the louder end of Shanghai dining.",
       "dishes": [
         {
@@ -2399,6 +2911,18 @@
         {
           "en": "Yuzu seafood salad",
           "zh": "柚子海鲜沙拉"
+        },
+        {
+          "en": "Stir-fried beef with crispy rice",
+          "zh": "香炒牛肉锅巴"
+        },
+        {
+          "en": "Mentaiko pasta",
+          "zh": "明太子意大利面"
+        },
+        {
+          "en": "Roast beef and sea urchin sushi",
+          "zh": "烤牛肉海胆寿司"
         }
       ],
       "tips": [
@@ -2485,7 +3009,7 @@
       "stars": 2,
       "lat": 31.225,
       "lng": 121.46,
-      "address": "Check Dianping",
+      "address": "安福路53号",
       "desc": "Consistently recommended by Shanghai coffee enthusiasts as one of the best specialty cafes in the city. Precise technique, quality sourcing.",
       "dishes": [
         {
@@ -2495,6 +3019,14 @@
         {
           "en": "Espresso drinks",
           "zh": "意式咖啡"
+        },
+        {
+          "en": "Chestnut cake",
+          "zh": "栗子蛋糕"
+        },
+        {
+          "en": "Basque cheesecake",
+          "zh": "巴斯克蛋糕"
         }
       ],
       "tips": [
