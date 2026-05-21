@@ -127,13 +127,21 @@ header{height:52px;border-bottom:2px solid var(--ink);display:flex;align-items:c
   body { overflow: hidden; }
   .app { flex-direction: column; }
 
-  /* Map takes top 45% */
-  .map-container { height: 45vh; flex: none; }
-  #map { height: calc(100% - 40px); }
+  /* Map takes top 45% — includes comm bar */
+  .map-container { height: 45vh; flex: none; position: relative; z-index: 10; }
+  #map { height: calc(100% - 44px); }
 
-  /* Comm bar smaller on mobile */
-  .comm-bar { height: 40px; padding: 0 .7rem; gap: .35rem; }
-  .comm-label { display: none; }
+  /* Comm bar — pinned to bottom of map container */
+  .comm-bar {
+    height: 44px;
+    padding: 0 .7rem;
+    gap: .4rem;
+    position: relative;
+    z-index: 20;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .comm-label { font-size: .55rem; letter-spacing: .05em; opacity: .6; }
   .comm-pill { font-size: .6rem; padding: .2rem .5rem; }
 
   /* Sidebar becomes bottom sheet */
@@ -200,8 +208,9 @@ header{height:52px;border-bottom:2px solid var(--ink);display:flex;align-items:c
   /* Map buttons smaller */
   .map-btn-row a { font-size: .62rem; padding: .45rem .6rem; }
 
-  /* FAB hidden on mobile — too cluttered */
-  .fab { display: none; }
+  /* FAB on mobile — smaller, bottom right above comm bar area */
+  .fab { bottom: auto; top: calc(45vh - 104px); right: .8rem; z-index: 400; }
+  .fab-main { font-size: .6rem; padding: .45rem .8rem; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
 
   /* Modals full-width on mobile */
   .comm-modal { max-width: 100%; margin: 0; border-radius: 0; }
