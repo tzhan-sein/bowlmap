@@ -46,12 +46,12 @@
           "zh": "鸡汤炖狮子头"
         },
         {
-          "en": "Green rice ball with cold tofu pudding",
+          "en": "Green rice ball with sweet tofu pudding",
           "zh": "小青团冰豆花"
         },
         {
           "en": "Lard and cured pork rice",
-          "zh": "猪油险肉菜饭"
+          "zh": "猪油腌肉菜饭"
         }
       ],
       "tips": [
@@ -79,11 +79,11 @@
       "dishes": [
         {
           "en": "Crab roe and pork xiaolongbao (8 pcs)",
-          "zh": "蟹粉鲜肉小笼 ¥46"
+          "zh": "蟹粉鲜肉小笼"
         },
         {
-          "en": "Pure crab roe wonton (10 pcs)",
-          "zh": "蟹粉小馄饨 ¥30"
+          "en": "Crab roe wonton (10 pcs)",
+          "zh": "蟹粉小馄饨"
         }
       ],
       "tips": [
@@ -111,11 +111,11 @@
       "dishes": [
         {
           "en": "Egg yolk and pork floss rice ball",
-          "zh": "蛋黄肉松青团 ¥8"
+          "zh": "蛋黄肉松青团"
         },
         {
           "en": "Sweet rice cake roll",
-          "zh": "条头糕 ¥4"
+          "zh": "条头糕"
         }
       ],
       "tips": [
@@ -205,7 +205,7 @@
       "dishes": [
         {
           "en": "Whipped cream chestnut cake",
-          "zh": "掼奶油栗子蛋"
+          "zh": "掼奶油栗子蛋糕"
         }
       ],
       "tips": [
@@ -258,11 +258,11 @@
       "dishes": [
         {
           "en": "Butterfly cookies",
-          "zh": "蝴蝶酥 ¥29"
+          "zh": "蝴蝶酥"
         },
         {
           "en": "Butter shortbread cookies",
-          "zh": "牛油曲奇 ¥59.8"
+          "zh": "牛油曲奇"
         }
       ],
       "tips": [
@@ -498,7 +498,7 @@
       "desc": "One of Shanghai most acclaimed restaurants. Exceptional Zhejiang cuisine — special occasion dining.",
       "dishes": [
         {
-          "en": "Sautéed bean vermicelli with shrimp and garlic",
+          "en": "Garlic prawn bean noodles",
           "zh": "沙蒜烧豆面"
         },
         {
@@ -943,11 +943,11 @@
       "desc": "Top-tier Fujian cuisine at the Bund. Acclaimed for exceptional seafood and refined flavours.",
       "dishes": [
         {
-          "en": "Steamed red crab rice cake",
+          "en": "Steamed red crab with rice cake",
           "zh": "厦门红蟳蒸米糕"
         },
         {
-          "en": "Braised taro with onion oil",
+          "en": "Roasted taro with pork gravy and scallion oil",
           "zh": "葱头油肉汁焗荔浦芋头"
         },
         {
@@ -963,11 +963,11 @@
           "zh": "福建佛跳墙"
         },
         {
-          "en": "Xiamen mixed jelly",
+          "en": "Xiamen soil shoot jelly",
           "zh": "厦门土笋冻"
         },
         {
-          "en": "Fujian-style cold shellfish",
+          "en": "Fujian-style cold-dressed yellow clams",
           "zh": "闽式捞汁黄蚬子"
         }
       ],
@@ -1197,7 +1197,7 @@
           "zh": "水煮鱼"
         },
         {
-          "en": "Spicy frog",
+          "en": "Spicy braised frog",
           "zh": "馋嘴牛蛙"
         },
         {
@@ -1213,11 +1213,11 @@
           "zh": "火爆黄喉"
         },
         {
-          "en": "Tofu flower in chicken broth",
+          "en": "Tofu pudding in chicken broth",
           "zh": "鸡汤豆腐花"
         },
         {
-          "en": "Ginger spinach",
+          "en": "Ginger-dressed spinach",
           "zh": "姜汁菠菜"
         }
       ],
@@ -1626,19 +1626,19 @@
           "zh": "手工苕皮"
         },
         {
-          "en": "Soft-braised beef",
+          "en": "Slow-braised beef",
           "zh": "耙牛肉"
         },
         {
-          "en": "Tender beef slices",
+          "en": "Tender sliced beef",
           "zh": "嫩牛肉"
         },
         {
-          "en": "Soft-braised chicken feet",
+          "en": "Slow-braised chicken feet",
           "zh": "耙鸡脚"
         },
         {
-          "en": "Celtuce",
+          "en": "Pickled lettuce stem",
           "zh": "贡菜"
         },
         {
@@ -1836,7 +1836,7 @@
           "zh": "黑三剁"
         },
         {
-          "en": "Yunnan rice noodle soup",
+          "en": "Cross-bridge rice noodles",
           "zh": "过桥米线"
         },
         {
@@ -1848,7 +1848,7 @@
           "zh": "蒜香鸡脚"
         },
         {
-          "en": "Beef rice noodles",
+          "en": "Beef with rice noodles",
           "zh": "牛肉饵丝"
         },
         {
@@ -1864,7 +1864,7 @@
           "zh": "玫瑰花生冰粉"
         },
         {
-          "en": "Thai-style coconut dessert",
+          "en": "Thai-style coconut milk dessert",
           "zh": "泡鲁达"
         }
       ],
@@ -2089,10 +2089,10 @@
         },
         {
           "en": "Fresh seasonal seafood",
-          "zh": "海鲜品牌"
+          "zh": "时令海鲜"
         },
         {
-          "en": "Five-flower beef",
+          "en": "Five-layer beef",
           "zh": "五花牛肉"
         },
         {
@@ -2346,7 +2346,7 @@
           "zh": "变换的番茄"
         },
         {
-          "en": "Braised abalone in kombu broth",
+          "en": "Black Gold abalone",
           "zh": "黑金鲍"
         }
       ],
@@ -2457,15 +2457,15 @@
       "desc": "Beloved neighbourhood sushi restaurant in Gubei. The seafood don is the star — great vinegared rice. Two people can share the 98 bowl plus sides.",
       "dishes": [
         {
-          "en": "Seafood don (rice bowl)",
+          "en": "Seafood rice bowl (don)",
           "zh": "海鲜丼"
         },
         {
-          "en": "Marinated eel with vinegar",
-          "zh": "醋鳗鱼"
+          "en": "Vinegar-marinated eel",
+          "zh": "醋渍鳗鱼"
         },
         {
-          "en": "Tuna and scallion luxury roll",
+          "en": "Premium tuna and scallion roll",
           "zh": "葱金枪鱼豪华卷"
         }
       ],
@@ -2617,7 +2617,7 @@
       "desc": "The undisputed Taiwanese food pilgrimage in Shanghai — regulars gain 4 pounds per visit and have zero regrets. Ginger duck hotpot, taro duck, oyster omelette, and fresh squid sashimi are the highlights.",
       "dishes": [
         {
-          "en": "Ginger duck hotpot with offal",
+          "en": "Ginger duck hotpot with offal and duck blood tofu",
           "zh": "姜母鸭拼牛杂鸭血豆腐"
         },
         {
@@ -2733,7 +2733,7 @@
         },
         {
           "en": "Thai milk tea",
-          "zh": "奶茶"
+          "zh": "泰奶"
         },
         {
           "en": "Thai basil minced pork rice",
@@ -2905,7 +2905,7 @@
           "zh": "叻沙"
         },
         {
-          "en": "Organic handmade tofu",
+          "en": "Organic handmade sesame tofu",
           "zh": "手工有机芝麻豆腐"
         },
         {
@@ -2913,7 +2913,7 @@
           "zh": "柚子海鲜沙拉"
         },
         {
-          "en": "Stir-fried beef with crispy rice",
+          "en": "Stir-fried beef with crispy rice crust",
           "zh": "香炒牛肉锅巴"
         },
         {
