@@ -20,8 +20,8 @@
       ],
       "price": "¥157/person",
       "stars": 3,
-      "lat": 39.932,
-      "lng": 116.4427,
+      "lat": 39.9331,
+      "lng": 116.4572,
       "address": "工体北路甲2号凯富大厦",
       "desc": "A 27-year-old Beijing institution set in a traditional courtyard mansion near Workers Stadium. The second floor overlooks the Forbidden City. Evening guests are treated to a live Sichuan face-changing performance.",
       "dishes": [
@@ -55,13 +55,12 @@
       "cuisine": "roast-duck-classics",
       "cuisineLabel": "600-year-old roast duck",
       "vibe": [
-        "special-occasion",
-        "hutong-hidden"
+        "special-occasion"
       ],
       "price": "¥107/person",
       "stars": 3,
-      "lat": 39.9163,
-      "lng": 116.4133,
+      "lat": 39.9103,
+      "lng": 116.411,
       "address": "王府井大街王府商厦四层",
       "desc": "Founded in 1416 and listed as an intangible cultural heritage, Bianyifang pioneered the closed-oven roasting technique — slower than open-flame, producing noticeably juicier duck. One of the most historically significant dining experiences in Beijing.",
       "dishes": [
@@ -100,8 +99,8 @@
       ],
       "price": "¥169/person",
       "stars": 2,
-      "lat": 39.8992,
-      "lng": 116.3912,
+      "lat": 39.8995,
+      "lng": 116.3851,
       "address": "前门西大街14号",
       "desc": "The most iconic roast duck brand in China, open since 1864. The fifth floor houses a roast duck museum. On a clear day you can see Beihai White Pagoda from the upper floors. The fruit-wood open-flame technique is UNESCO-nominated.",
       "dishes": [
@@ -180,8 +179,8 @@
       ],
       "price": "¥165/person",
       "stars": 2,
-      "lat": 39.932,
-      "lng": 116.4427,
+      "lat": 39.9331,
+      "lng": 116.4572,
       "address": "工体北路凯富大厦三层",
       "desc": "Imperial-style décor with views of Sanlitun and the Workers Stadium area. A formal banquet restaurant that does old Beijing cooking with serious technique — the sautéed pork cubes and crispy stir-fry are exceptional.",
       "dishes": [
@@ -220,8 +219,8 @@
       ],
       "price": "¥91/person",
       "stars": 2,
-      "lat": 39.9163,
-      "lng": 116.4341,
+      "lat": 39.9144,
+      "lng": 116.4315,
       "address": "建国门北总布胡同",
       "desc": "Tucked deep in Zongbu Hutong near Jianguomen, this old Beijing courtyard restaurant has red lanterns and a genuinely smoky, neighbourhood atmosphere. The cooking is honest and deeply traditional.",
       "dishes": [
@@ -255,13 +254,12 @@
       "cuisine": "hutong-courtyard",
       "cuisineLabel": "Garden courtyard Beijing cuisine",
       "vibe": [
-        "instagrammable",
-        "hutong-hidden"
+        "instagrammable"
       ],
       "price": "¥98/person",
       "stars": 3,
-      "lat": 39.9198,
-      "lng": 116.4637,
+      "lat": 39.9176,
+      "lng": 116.4431,
       "address": "日坛公园北门西侧",
       "desc": "Ranked number one on Dianping for Beijing cuisine in Chaoyang. A sunken courtyard with Taihu stone rockery and classical garden landscaping. The braised pork noodles come with unlimited refills.",
       "dishes": [
@@ -300,8 +298,8 @@
       ],
       "price": "¥90/person",
       "stars": 2,
-      "lat": 39.9376,
-      "lng": 116.3848,
+      "lat": 39.939,
+      "lng": 116.3927,
       "address": "什刹海银锭桥西南侧胡同",
       "desc": "A private courtyard kitchen hidden in the hutongs southwest of Yinding Bridge, overlooking Shichahai lake. The second-floor terrace produces a romantic artificial snow effect on request. One of the most atmospheric spots in Beijing.",
       "dishes": [
@@ -340,8 +338,8 @@
       ],
       "price": "¥150–300/person",
       "stars": 2,
-      "lat": 39.9241,
-      "lng": 116.4102,
+      "lat": 39.9328,
+      "lng": 116.4126,
       "address": "东城区协作胡同40号",
       "desc": "A nearly 2,000 sq metre double-courtyard compound near the Forbidden City, combining contemporary art installations with refined cooking. The wind-dried Qingyuan chicken and the abalone-braised beef tendon are the culinary highlights.",
       "dishes": [
@@ -380,8 +378,8 @@
       ],
       "price": "¥100–200/person",
       "stars": 2,
-      "lat": 39.9337,
-      "lng": 116.4186,
+      "lat": 39.9432,
+      "lng": 116.4185,
       "address": "东城区北新桥三条",
       "desc": "Housed in a courtyard designed by Liang Sicheng, one of Chinas greatest architects. Slow, deliberate Jiangnan cooking in a quietly beautiful setting. The braised pork rice is made with Jinhua two-headed black pork.",
       "dishes": [
@@ -420,8 +418,8 @@
       ],
       "price": "¥519/person",
       "stars": 3,
-      "lat": 39.8992,
-      "lng": 116.3912,
+      "lat": 39.8956,
+      "lng": 116.3983,
       "address": "前门大街50号",
       "desc": "An immersive imperial dining experience on Qianmen Street. Private rooms have open terraces, and the arrival ritual includes robe-changing, incense and hand-washing ceremonies. The five-year-aged Jinhua ham tofu soup and the Buddha Jumps Over the Wall are the headline dishes.",
       "dishes": [
@@ -460,8 +458,8 @@
       ],
       "price": "¥230/person",
       "stars": 2,
-      "lat": 39.8978,
-      "lng": 116.4685,
+      "lat": 39.8956,
+      "lng": 116.4612,
       "address": "东三环双井富力广场附近",
       "desc": "A converted factory space near Shuangjing with a glass ceiling open to the sky, dramatic high ceilings and contemporary art installations. The cooking blends traditional techniques with visual creativity.",
       "dishes": [
@@ -500,8 +498,8 @@
       ],
       "price": "¥180–300/person",
       "stars": 3,
-      "lat": 39.8989,
-      "lng": 116.3971,
+      "lat": 39.8956,
+      "lng": 116.4044,
       "address": "前门商圈青云贰拾叁艺术中心内院",
       "desc": "Hidden inside the Qingyun 23 Art Centre near Qianmen, this restaurant is built on the culinary legacy of Old Fangu — Chinas most famous cooking YouTube channel. The live-batter squirrel fish and the pre-imperial kung pao chicken are unmissable.",
       "dishes": [
@@ -540,8 +538,8 @@
       ],
       "price": "¥50–150/person",
       "stars": 2,
-      "lat": 39.897,
-      "lng": 116.3736,
+      "lat": 39.9013,
+      "lng": 116.3797,
       "address": "西中胡同28号",
       "desc": "A provincial government guesthouse restaurant in a hutong near Xuanwumen, serving the regional cuisine of Yibin in Sichuan. The white-cut pork is sliced impossibly thin and the Yibin burning noodles are the real thing.",
       "dishes": [
@@ -579,8 +577,8 @@
       ],
       "price": "¥100–200/person",
       "stars": 2,
-      "lat": 39.9142,
-      "lng": 116.3389,
+      "lat": 39.9131,
+      "lng": 116.3563,
       "address": "复兴门外北大街5号",
       "desc": "A reliable Northeast China restaurant near Fuxingmen serving the hearty cooking of Heilongjiang. The guobaorou (crispy pork in sweet sauce) here is considered one of the best in Beijing.",
       "dishes": [
@@ -619,8 +617,8 @@
       ],
       "price": "¥50–100/person",
       "stars": 2,
-      "lat": 39.9373,
-      "lng": 116.3418,
+      "lat": 39.9386,
+      "lng": 116.3433,
       "address": "西直门外大街新疆驻京办大楼内",
       "desc": "Inside the Xinjiang provincial government building near Xizhimen — as authentic as Xinjiang food gets in Beijing. The big-plate chicken is a full meal in itself. The house-made yoghurt is exceptional.",
       "dishes": [
@@ -654,13 +652,12 @@
       "cuisine": "provincial-kitchens",
       "cuisineLabel": "Yunnan cuisine",
       "vibe": [
-        "cheap-eats",
-        "hutong-hidden"
+        "cheap-eats"
       ],
       "price": "¥60–150/person",
       "stars": 2,
-      "lat": 39.9681,
-      "lng": 116.3229,
+      "lat": 39.9667,
+      "lng": 116.3394,
       "address": "海淀区大钟寺1733山谷食集B2层",
       "desc": "Hidden in the basement of a lifestyle market near Dazhongsi on Line 12, this Yunnan restaurant does the wild herbs and mushrooms of Yunnan justice. The lemongrass baked tilapia is exceptional.",
       "dishes": [
@@ -699,8 +696,8 @@
       ],
       "price": "¥80–150/person",
       "stars": 2,
-      "lat": 39.9375,
-      "lng": 116.4564,
+      "lat": 39.933,
+      "lng": 116.4526,
       "address": "三里屯SOHO商场1-B1层",
       "desc": "One of Beijings only dedicated African restaurants, located in the sunken plaza of Sanlitun SOHO. The atmosphere is genuinely transportive — bold colours, African music and unfamiliar ingredients that reward the adventurous.",
       "dishes": [
@@ -734,13 +731,12 @@
       "cuisine": "provincial-kitchens",
       "cuisineLabel": "Jiangsu Huaiyang cuisine",
       "vibe": [
-        "date-night",
-        "hutong-hidden"
+        "date-night"
       ],
       "price": "¥150–200/person",
       "stars": 2,
-      "lat": 39.9453,
-      "lng": 116.4142,
+      "lat": 39.9538,
+      "lng": 116.4086,
       "address": "安定门外大街198号",
       "desc": "Quietly excellent Huaiyang cuisine near Ditan Park. The sizzling eel paste is one of the best versions in Beijing. The braised taro pork dish (using Yibin roots from the dish name) and the lions head meatball are essential orders.",
       "dishes": [
@@ -778,8 +774,8 @@
       ],
       "price": "¥100–200/person",
       "stars": 2,
-      "lat": 39.8618,
-      "lng": 116.3355,
+      "lat": 39.8565,
+      "lng": 116.3122,
       "address": "丰台区恒福北街科技孵化广场8号楼1楼",
       "desc": "A Hunan restaurant certified by Hunan locals as genuinely authentic. The blood duck with mountain pepper oil and the pork meat soup rice are the two dishes that make regulars return.",
       "dishes": [
@@ -818,8 +814,8 @@
       ],
       "price": "¥200–300/person",
       "stars": 2,
-      "lat": 39.9093,
-      "lng": 116.4706,
+      "lat": 39.9091,
+      "lng": 116.4783,
       "address": "朝阳区建国路87号北京SKP六层",
       "desc": "The best Fujian restaurant in Beijing, located on the sixth floor of Beijings most prestigious department store. The Minnan radish rice and the cumin lamb rack are the dishes everyone talks about.",
       "dishes": [
@@ -853,13 +849,12 @@
       "cuisine": "provincial-kitchens",
       "cuisineLabel": "Shanxi cuisine",
       "vibe": [
-        "hutong-hidden",
         "cheap-eats"
       ],
       "price": "¥50–100/person",
       "stars": 2,
-      "lat": 39.9019,
-      "lng": 116.4487,
+      "lat": 39.8894,
+      "lng": 116.4368,
       "address": "夕照寺中街29号北京黄河京都大酒店2层",
       "desc": "Inside the Shanxi provincial government hotel near Chongwenmen. The guoyourou is a UNESCO-listed intangible cultural heritage dish. The pao pao oil cake is an old Beijing street snack almost impossible to find elsewhere.",
       "dishes": [
@@ -893,13 +888,12 @@
       "cuisine": "provincial-kitchens",
       "cuisineLabel": "Hubei cuisine",
       "vibe": [
-        "hutong-hidden",
         "cheap-eats"
       ],
       "price": "¥100–200/person",
       "stars": 2,
-      "lat": 39.8989,
-      "lng": 116.362,
+      "lat": 39.8952,
+      "lng": 116.3893,
       "address": "西城区琉璃厂东街2号",
       "desc": "Hidden on Liulichang antique street in a doorway easy to walk past. The lotus root and pork rib soup can be refilled — the lotus is braised until it collapses. The dry-fried lotus root strips are every tables must-order.",
       "dishes": [
@@ -938,8 +932,8 @@
       ],
       "price": "¥100–200/person",
       "stars": 2,
-      "lat": 39.9425,
-      "lng": 116.3707,
+      "lat": 39.9424,
+      "lng": 116.3726,
       "address": "西城区大半截胡同45号",
       "desc": "A stilt-house restaurant (diaojiao lou) in a West City hutong near Xinjiaokou station, serving the rarely found cuisine of the Tujia ethnic minority from Enshi, Hubei. The hezhaguo is made from locally sourced soybeans ground fresh daily.",
       "dishes": [
@@ -978,8 +972,8 @@
       ],
       "price": "¥100–150/person",
       "stars": 2,
-      "lat": 39.9385,
-      "lng": 116.3866,
+      "lat": 39.9456,
+      "lng": 116.3861,
       "address": "西城区鼓楼西大街珠穆朗玛宾馆B1层",
       "desc": "In the basement of the Qomolangma Hotel on Gulou West Street, steps from Houhai. One of the only dedicated Tibetan restaurants in Beijing. The yak meat dishes and the tsampa-based desserts are unlike anything else in the city.",
       "dishes": [
@@ -1018,8 +1012,8 @@
       ],
       "price": "¥80–200/person",
       "stars": 2,
-      "lat": 39.9024,
-      "lng": 116.4195,
+      "lat": 39.9056,
+      "lng": 116.4191,
       "address": "东城区崇文门内大街2号内蒙古大厦3层",
       "desc": "On the third floor of the Inner Mongolia government building near Chongwenmen. The hand-held lamb is boiled in spring water to let the pure flavour shine. The classic shaomai here is the benchmark version.",
       "dishes": [
@@ -1057,8 +1051,8 @@
       ],
       "price": "¥80–150/person",
       "stars": 2,
-      "lat": 39.9251,
-      "lng": 116.4963,
+      "lat": 40.0275,
+      "lng": 116.4326,
       "address": "朝阳区恒大书院G5号楼102",
       "desc": "A large, relaxed family-style restaurant in Chaoyang with spacious private rooms. The fish head with fresh-baked pancake and the braised mixed offal hotpot are the two dishes worth making the trip for.",
       "dishes": [
@@ -1097,8 +1091,8 @@
       ],
       "price": "¥100–200/person",
       "stars": 2,
-      "lat": 39.9647,
-      "lng": 116.3715,
+      "lat": 39.9704,
+      "lng": 116.3959,
       "address": "安贞街道北三环安贞西里三区26号",
       "desc": "Inside the Zhejiang provincial government building near Anzheng Bridge. One of the most complete Zhejiang menus in Beijing — bamboo shoot duck soup, Longjing shrimp, and West Lake vinegar fish all done properly.",
       "dishes": [
@@ -1132,13 +1126,12 @@
       "cuisine": "palace-pastries",
       "cuisineLabel": "Imperial court pastries",
       "vibe": [
-        "instagrammable",
-        "hutong-hidden"
+        "instagrammable"
       ],
       "price": "¥57/person",
       "stars": 3,
-      "lat": 39.9441,
-      "lng": 116.3705,
+      "lat": 39.9352,
+      "lng": 116.3754,
       "address": "西城区护国寺街85号新天地商场一楼",
       "desc": "A century-old pastry shop near Huguo Temple carrying the traditions of Qing Dynasty imperial kitchens. The Empress Dowager Cixi reportedly loved the Sunniafin white cake. Three consecutive years on Beijings must-eat list.",
       "dishes": [
@@ -1172,13 +1165,12 @@
       "cuisine": "palace-pastries",
       "cuisineLabel": "Imperial fermented milk desserts",
       "vibe": [
-        "cheap-eats",
-        "hutong-hidden"
+        "cheap-eats"
       ],
       "price": "¥21/person",
       "stars": 3,
-      "lat": 39.9385,
-      "lng": 116.4059,
+      "lat": 39.941,
+      "lng": 116.4004,
       "address": "东城区鼓楼东大街194号",
       "desc": "A tiny dessert counter near Gulou Dongdajie carrying a palace dairy recipe over ten years old. The traditional court cheese has a silky, pudding-like texture quite unlike Western cheese. Summer brings a hand-simmered sour plum drink.",
       "dishes": [
@@ -1217,8 +1209,8 @@
       ],
       "price": "¥58/person",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.422,
+      "lat": 39.9369,
+      "lng": 116.4168,
       "address": "东城区东四北大街148-150号",
       "desc": "The original Beijing Daoxiangcun (distinct from the Suzhou brand). Imperial Qing Dynasty décor, made-to-order pastries and beautifully packaged gift boxes. The exploding-custard ox tongue is a modern spin on the classic.",
       "dishes": [
@@ -1252,13 +1244,12 @@
       "cuisine": "palace-pastries",
       "cuisineLabel": "Solar term heritage pastries",
       "vibe": [
-        "hutong-hidden",
         "instagrammable"
       ],
       "price": "¥56/person",
       "stars": 2,
-      "lat": 39.9529,
-      "lng": 116.3691,
+      "lat": 39.9596,
+      "lng": 116.379,
       "address": "西城区德胜门外大街11号1号楼1层",
       "desc": "A heritage pastry shop near Deshengmen that releases new pastries according to the 24 solar terms — 72 seasonal varieties across the year. The lychee cream cheese pastry and the pineapple cake are perennial favourites.",
       "dishes": [
@@ -1298,8 +1289,8 @@
       ],
       "price": "¥74/person",
       "stars": 3,
-      "lat": 39.9372,
-      "lng": 116.4007,
+      "lat": 39.9378,
+      "lng": 116.4029,
       "address": "东城区沙井胡同3号",
       "desc": "Hidden in Shajing Hutong in Dongcheng, this teahouse dessert studio creates confections themed around the 24 solar terms. The rooftop terrace overlooks the hutong roofscape. Possibly the most quietly beautiful dessert spot in Beijing.",
       "dishes": [
@@ -1338,8 +1329,8 @@
       ],
       "price": "¥41/person",
       "stars": 2,
-      "lat": 39.9243,
-      "lng": 116.4195,
+      "lat": 39.9199,
+      "lng": 116.4183,
       "address": "东城区东华门街道东四南大街45号",
       "desc": "A Japanese-aesthetic artisan bakery in Dongsi with handmade ceramic tableware and a very high bread-to-price ratio. The taro soft fufu and the Sichuan sausage rice bread are unlike anything else in Beijing.",
       "dishes": [
@@ -1378,8 +1369,8 @@
       ],
       "price": "¥56/person",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.4556,
+      "lat": 39.9386,
+      "lng": 116.4544,
       "address": "朝阳区三里屯路太古里北区N8楼一层",
       "desc": "A spacious American-industrial bakery in Sanlitun with a giant doughnut installation that has become a Beijing landmark. The Dubai chocolate cookie and the dirty bun are the headline items.",
       "dishes": [
@@ -1418,8 +1409,8 @@
       ],
       "price": "¥71/person",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.4556,
+      "lat": 39.9195,
+      "lng": 116.4489,
       "address": "朝阳区朝外街道芳草地北巷2号",
       "desc": "A beautifully lit French-style patisserie near Parkview Green with floor-to-ceiling windows. The strawberry cream cake is universally agreed to be the best in Beijing. The pistachio Basque cheesecake is the second must-order.",
       "dishes": [
@@ -1458,8 +1449,8 @@
       ],
       "price": "¥42/person",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.422,
+      "lat": 39.9322,
+      "lng": 116.417,
       "address": "东城区东四北大街241号",
       "desc": "A minimalist open-kitchen bakery in Dongsi where you can watch bakers at work. Free tasting samples are offered throughout the day. The porcini ciabatta and the green bamboo matcha cream toast are the top sellers.",
       "dishes": [
@@ -1498,8 +1489,8 @@
       ],
       "price": "¥46/person",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.4556,
+      "lat": 39.9351,
+      "lng": 116.4543,
       "address": "朝阳区三里屯路太古里南区19号",
       "desc": "A British-aesthetic pet-friendly bakery in Taikoo Li South. The cinnamon roll is considered one of the best in Beijing, and the Napoleon pastry is frequently cited as the citys finest. Indoor and outdoor seating, always relaxed.",
       "dishes": [
@@ -1533,13 +1524,12 @@
       "cuisine": "halal-muslim",
       "cuisineLabel": "Halal Beijing street food",
       "vibe": [
-        "hutong-hidden",
         "cheap-eats"
       ],
       "price": "¥58",
       "stars": 2,
-      "lat": 39.9341,
-      "lng": 116.4183,
+      "lat": 39.942,
+      "lng": 116.417,
       "address": "东城区雍和宫大街94号",
       "desc": "A beloved Muslim street food counter near Yonghe Lama Temple. The sesame flatbreads are layered with tahini, and the fresh-skewered lamb has no gamey smell. The hand-made rice balls at Lantern Festival are a local tradition.",
       "dishes": [
@@ -1582,8 +1572,8 @@
       ],
       "price": "¥48",
       "stars": 2,
-      "lat": 39.9385,
-      "lng": 116.3866,
+      "lat": 39.9395,
+      "lng": 116.3931,
       "address": "西城区鸦儿胡同甲2号",
       "desc": "The Houhai branch of Yar Liji, tucked into a hutong steps from the lake. The braised beef flatbread sandwich and the hand-made sweet rice balls are the signatures here.",
       "dishes": [
@@ -1625,8 +1615,8 @@
       ],
       "price": "¥112",
       "stars": 2,
-      "lat": 39.8942,
-      "lng": 116.3588,
+      "lat": 39.9323,
+      "lng": 116.3681,
       "address": "西城区平安里西大街与赵登禹路交叉口西南角",
       "desc": "On the edge of Niujie, Beijing Muslim quarter. The award-winning sesame sugar flatbread has a molten red-sugar centre. The hand-sliced lamb leg is cut fresh to order and has a distinctly clean flavour.",
       "dishes": [
@@ -1668,8 +1658,8 @@
       ],
       "price": "¥145",
       "stars": 2,
-      "lat": 39.9163,
-      "lng": 116.4341,
+      "lat": 39.9228,
+      "lng": 116.4385,
       "address": "朝阳区朝外南街20号联合大厦2层",
       "desc": "A halal restaurant with over 100 years of history, famed for braised and popped offal dishes. The fruit-wood roast duck here is the halal alternative to Quanjude. The braised ox tail is slow-cooked until it collapses off the bone.",
       "dishes": [
@@ -1707,13 +1697,12 @@
       "cuisine": "halal-muslim",
       "cuisineLabel": "Halal tripe specialist",
       "vibe": [
-        "hutong-hidden",
         "cheap-eats"
       ],
       "price": "¥98",
       "stars": 2,
-      "lat": 39.9441,
-      "lng": 116.4541,
+      "lat": 39.9455,
+      "lng": 116.4687,
       "address": "朝阳区麦子店街6号楼东侧",
       "desc": "A specialist tripe restaurant — the technique of flash-popping offal at precisely the right heat is what defines a great Beijing halal snack counter. The door-nail meat pie is freshly pressed with thin pastry and generous filling.",
       "dishes": [
@@ -1756,8 +1745,8 @@
       ],
       "price": "¥118",
       "stars": 3,
-      "lat": 39.909,
-      "lng": 116.364,
+      "lat": 39.9109,
+      "lng": 116.3528,
       "address": "西城区南礼士路58号",
       "desc": "One of the oldest iron-griddle lamb restaurants in Beijing, founded in the Qing dynasty. Diners lean over a domed iron griddle eating thinly sliced beef and lamb rolled in flatbread with pickled garlic. A uniquely Beijing dining ritual.",
       "dishes": [
@@ -1795,13 +1784,12 @@
       "cuisine": "halal-muslim",
       "cuisineLabel": "Shaanxi Muslim cuisine",
       "vibe": [
-        "cheap-eats",
-        "hutong-hidden"
+        "cheap-eats"
       ],
       "price": "¥69",
       "stars": 2,
-      "lat": 39.9441,
-      "lng": 116.375,
+      "lat": 39.9401,
+      "lng": 116.3729,
       "address": "西城区新街口南大街20号",
       "desc": "A proper Shaanxi Muslim restaurant near Xinjiaokou, serving the hand-torn pita lamb soup (paomo) that Xi an is famous for. The electric-grilled lamb skewer at the window is a Beijing street snack institution.",
       "dishes": [
@@ -1839,8 +1827,8 @@
       ],
       "price": "¥81",
       "stars": 2,
-      "lat": 39.9008,
-      "lng": 116.2994,
+      "lat": 39.912,
+      "lng": 116.2946,
       "address": "海淀区万寿路17号天天假日饭店1、2层",
       "desc": "A comprehensive Northwest Muslim restaurant near Wanshoulu. The Lanzhou hand-pulled noodle soup uses a bone broth prepared overnight and the noodles are pulled fresh for each order.",
       "dishes": [
@@ -1878,13 +1866,12 @@
       "cuisine": "beijing-hotpot",
       "cuisineLabel": "Halal copper-pot shabu",
       "vibe": [
-        "cheap-eats",
-        "hutong-hidden"
+        "cheap-eats"
       ],
       "price": "¥106",
       "stars": 2,
-      "lat": 39.953,
-      "lng": 116.4195,
+      "lat": 39.9582,
+      "lng": 116.4181,
       "address": "东城区和平里西街67号",
       "desc": "The shabu branch of the beloved Yar Liji halal chain near Line 5. The copper pot uses a clean clear broth and the freshly hand-skewered lamb is available both for grilling and dipping. The hand-rolled sweet rice balls are a traditional Beijing dessert.",
       "dishes": [
@@ -1923,8 +1910,8 @@
       ],
       "price": "¥126",
       "stars": 3,
-      "lat": 39.9385,
-      "lng": 116.3948,
+      "lat": 39.9407,
+      "lng": 116.4069,
       "address": "东城区鼓楼东大街26号",
       "desc": "The Gulou branch of Beijing most famous copper-pot shabu institution, steps from Shichahai lake. The mountain spring water broth is unadorned — the lamb flavour must stand alone. The crumbling sesame flatbread is the perfect accompaniment.",
       "dishes": [
@@ -1967,8 +1954,8 @@
       ],
       "price": "¥96",
       "stars": 2,
-      "lat": 39.9927,
-      "lng": 116.391,
+      "lat": 40.0075,
+      "lng": 116.4052,
       "address": "朝阳区慧忠北里第二社区214号楼1层",
       "desc": "Near the Bird Nest stadium, the signature here is the trolley service — a staff member wheels a cart to your table and slices the lamb directly in front of you. The red willow branch lamb skewers use a traditional Xinjiang technique.",
       "dishes": [
@@ -2011,8 +1998,8 @@
       ],
       "price": "¥101",
       "stars": 2,
-      "lat": 39.876,
-      "lng": 116.4133,
+      "lat": 39.8738,
+      "lng": 116.4136,
       "address": "东城区永定门东街东里13号楼",
       "desc": "Steps from the south gate of the Temple of Heaven, this copper-pot shabu restaurant is the logical post-sightseeing meal. The house tahini sauce is made to a unique recipe and the hand-cut fresh lamb has an unusually clean flavour.",
       "dishes": [
@@ -2055,8 +2042,8 @@
       ],
       "price": "¥133",
       "stars": 2,
-      "lat": 39.9251,
-      "lng": 116.4638,
+      "lat": 39.9194,
+      "lng": 116.4493,
       "address": "朝阳区东大桥路9号侨福芳草地LG2层",
       "desc": "A century-old halal shabu institution inside the Parkview Green mall near Guomao. The high-calcium lamb has a distinctive crunchy texture from the bone-adjacent cuts. The Qianlong-recipe sesame sugar flatbread is served warm.",
       "dishes": [
@@ -2094,13 +2081,12 @@
       "cuisine": "beijing-hotpot",
       "cuisineLabel": "Niujie original copper-pot shabu",
       "vibe": [
-        "hutong-hidden",
         "cheap-eats"
       ],
       "price": "¥102",
       "stars": 3,
-      "lat": 39.8942,
-      "lng": 116.3588,
+      "lat": 39.8882,
+      "lng": 116.3639,
       "address": "西城区牛街5-2号",
       "desc": "The original location of Jubao Yuan, opened on Niujie — Beijing most historic Muslim street. The lamb slices must stand upright when fresh, and the century-old tahini recipe has never changed. This is where Beijing copper-pot shabu was codified.",
       "dishes": [
@@ -2143,8 +2129,8 @@
       ],
       "price": "¥133",
       "stars": 2,
-      "lat": 39.8989,
-      "lng": 116.3912,
+      "lat": 39.898,
+      "lng": 116.395,
       "address": "西城区前门北京坊W6号楼3层",
       "desc": "A premium shabu restaurant inside the Beijing Fang heritage district near Qianmen. The headline product is 28-day dry-aged lamb — a technique rarely applied to mutton in China — which concentrates the flavour without any gaminess.",
       "dishes": [
@@ -2186,8 +2172,8 @@
       ],
       "price": "¥115",
       "stars": 2,
-      "lat": 39.9151,
-      "lng": 116.3658,
+      "lat": 39.9141,
+      "lng": 116.373,
       "address": "西城区西单北大街109号西西友谊商城7层",
       "desc": "The most central Jubao Yuan branch, on the seventh floor of the Xi Dan shopping complex. The Beijing Four Kinds (Jing Si Yang) sampler lets first-timers try four different lamb cuts in one order.",
       "dishes": [
@@ -2230,8 +2216,8 @@
       ],
       "price": "¥106",
       "stars": 2,
-      "lat": 39.9385,
-      "lng": 116.3848,
+      "lat": 39.9367,
+      "lng": 116.3938,
       "address": "西城区前海东延2号",
       "desc": "The most atmospheric Yar Liji branch, right on the shore of Qianhai lake in Shichahai. The fried mantou dipped in fermented tofu is a peculiarly Beijing combination that works surprisingly well. Best visited in the evening when the lake is lit.",
       "dishes": [
@@ -2273,8 +2259,8 @@
       ],
       "price": "¥133",
       "stars": 2,
-      "lat": 39.9163,
-      "lng": 116.4133,
+      "lat": 39.9097,
+      "lng": 116.4111,
       "address": "东城区王府井喜悦购物中心5F",
       "desc": "The Wangfujing branch of Xiyuan Ji, offering the same 28-day dry-aged lamb programme. The Beijing-style fresh-fried chilli oil is made tableside and added to the dipping sauce.",
       "dishes": [
@@ -2317,8 +2303,8 @@
       ],
       "price": "¥105",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.4556,
+      "lat": 39.9322,
+      "lng": 116.4564,
       "address": "朝阳区工人体育场北路4号院10号楼",
       "desc": "The most popular Mexican restaurant in Sanlitun. The signature Waiguolao (Foreigner) Taco and the fish taco with crispy batter are the two must-orders. A reliable choice when Chinese food needs a break.",
       "dishes": [
@@ -2361,8 +2347,8 @@
       ],
       "price": "¥174",
       "stars": 2,
-      "lat": 39.9331,
-      "lng": 116.4556,
+      "lat": 39.9322,
+      "lng": 116.4564,
       "address": "朝阳区工人体育场北路4号10号楼106号",
       "desc": "Texas and Kansas-style American BBQ in the heart of Sanlitun. The Kansas City pork ribs are smoked over fruit wood for 12 hours. The Texas-style beef brisket is carved tableside.",
       "dishes": [
@@ -2401,8 +2387,8 @@
       ],
       "price": "¥100",
       "stars": 2,
-      "lat": 39.9102,
-      "lng": 116.4778,
+      "lat": 39.9179,
+      "lng": 116.4525,
       "address": "朝阳区金汇路8号中骏世界城E座1层",
       "desc": "A lively Tex-Mex bar in the CBD area. The signature burrito is soaked in red and green sauces. The fajita iron platter comes with three different dips and the double beef burger has a notably juicy patty.",
       "dishes": [
@@ -2445,8 +2431,8 @@
       ],
       "price": "¥278",
       "stars": 2,
-      "lat": 39.9508,
-      "lng": 116.4641,
+      "lat": 39.9512,
+      "lng": 116.4635,
       "address": "朝阳区东方东路19号亮马桥外交办公大楼官舍2楼",
       "desc": "Beijing best Brazilian churrasco experience near the embassy district. Servers circulate with skewers of charcoal-grilled meats and carve directly onto your plate. The tri-tip beef (牛三角肉) is the house speciality.",
       "dishes": [
@@ -2489,8 +2475,8 @@
       ],
       "price": "¥105",
       "stars": 2,
-      "lat": 39.8927,
-      "lng": 116.4885,
+      "lat": 39.8999,
+      "lng": 116.4712,
       "address": "朝阳区百子湾路32号院2号楼",
       "desc": "A proper American bar and grill near 798 Art District. The patties are ground fresh and the buffalo chicken wings are made to a genuine North American recipe. Good for a casual dinner after exploring the galleries.",
       "dishes": [
@@ -2533,8 +2519,8 @@
       ],
       "price": "¥207",
       "stars": 3,
-      "lat": 39.9411,
-      "lng": 116.4271,
+      "lat": 39.9416,
+      "lng": 116.4282,
       "address": "东城区东直门内大街9号NAGA上院1号楼",
       "desc": "The only serious Georgian restaurant in Beijing, near Dongzhimen. The Adjarian khachapuri (cheese boat with egg) is the most theatrical dish in the city — the runny egg yolk is broken at the table and stirred into the molten cheese. Every table orders it.",
       "dishes": [
@@ -2577,8 +2563,8 @@
       ],
       "price": "¥127",
       "stars": 2,
-      "lat": 40.0285,
-      "lng": 116.3775,
+      "lat": 39.9887,
+      "lng": 116.3374,
       "address": "海淀区东升南路东升园12号楼配套楼底商",
       "desc": "The only dedicated Syrian restaurant in Beijing, run by a Syrian owner who cooks using family recipes. The mixed grill platter restores authentic Levantine spicing. The Syrian ice cream is made with mastic and has a uniquely elastic, chewy texture.",
       "dishes": [
@@ -2621,8 +2607,8 @@
       ],
       "price": "¥90",
       "stars": 2,
-      "lat": 39.9275,
-      "lng": 116.4641,
+      "lat": 39.9199,
+      "lng": 116.4437,
       "address": "朝阳区神路街39号院1号楼",
       "desc": "A small Turkish restaurant near Sanlitun serving pide (Turkish flatbread pizza), mixed grills and the thick Turkish tea that comes in tulip-shaped glasses. One of only a handful of Turkish restaurants in Beijing.",
       "dishes": [
@@ -2664,8 +2650,8 @@
       ],
       "price": "¥91",
       "stars": 2,
-      "lat": 40.0081,
-      "lng": 116.3497,
+      "lat": 40.0051,
+      "lng": 116.3521,
       "address": "海淀区学清路41号裕京大厦北六号",
       "desc": "A Pakistani and Indian halal restaurant near Xueyuan Road, popular with Beijing Muslim community and South Asian students. The fresh mint iced drink is served with every meal. The channa masala is widely considered the best in Beijing.",
       "dishes": [
@@ -2708,8 +2694,8 @@
       ],
       "price": "¥98",
       "stars": 2,
-      "lat": 39.9275,
-      "lng": 116.4641,
+      "lat": 39.919,
+      "lng": 116.4436,
       "address": "朝阳区神路街39号10幢",
       "desc": "A well-regarded North Indian curry restaurant near Sanlitun with a reliably spiced butter chicken and a garlic naan that arrives properly puffed from the tandoor. The vegetable samosa has a crisp exterior and a well-seasoned filling.",
       "dishes": [
