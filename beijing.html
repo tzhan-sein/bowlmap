@@ -354,7 +354,7 @@ function renderList() {
       <div class="r-meta">
         <span class="r-tag">${r.cuisineLabel}</span>
         <span class="r-price">${r.price}</span>
-        <span style="font-size:.8rem">${"⭐".repeat(r.stars)}</span>
+        
       </div>
       <div class="r-desc">${r.desc}</div>
     </div>`).join("");
@@ -422,7 +422,7 @@ function showDetail(r) {
       <div class="panel-badges">
         <span class="badge">${r.cuisineLabel}</span>
         <span class="badge gold">${r.price}/person</span>
-        ${r.stars >= 3 ? '<span class="badge red">Top Pick</span>' : ""}
+        
       </div>
       <div class="panel-desc">${r.desc}</div>
     </div>
