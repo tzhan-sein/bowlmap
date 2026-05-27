@@ -13,7 +13,7 @@
       "zh": "外滩家宴·上海菜",
       "en": "Waitan Jiayan",
       "cuisine": "shanghai",
-      "cuisineLabel": "Shanghai cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "date-night",
         "instagrammable"
@@ -275,7 +275,7 @@
       "zh": "李百蟹·蟹黄面",
       "en": "Li Baixie Crab Restaurant",
       "cuisine": "shanghai",
-      "cuisineLabel": "Crab cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "date-night",
         "instagrammable",
@@ -458,7 +458,7 @@
       "zh": "老吉士",
       "en": "Lao Jishi",
       "cuisine": "shanghai",
-      "cuisineLabel": "Shanghai cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "local-secret"
       ],
@@ -485,7 +485,7 @@
       "zh": "新荣记",
       "en": "Xinrongji",
       "cuisine": "shanghai",
-      "cuisineLabel": "Zhejiang fine dining",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "special-occasion",
         "local-secret"
@@ -524,7 +524,7 @@
       "zh": "细记港九大排档",
       "en": "Xiji HK Dai Pai Dong",
       "cuisine": "shanghai",
-      "cuisineLabel": "Hong Kong style",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "cheap-eats",
         "local-secret"
@@ -611,7 +611,7 @@
       "zh": "孔乙己",
       "en": "Kong Yiji",
       "cuisine": "shanghai",
-      "cuisineLabel": "Shaoxing cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "instagrammable",
         "date-night"
@@ -879,7 +879,7 @@
       "zh": "德林酸菜鱼",
       "en": "Delin Sauerkraut Fish",
       "cuisine": "shanghai",
-      "cuisineLabel": "Sichuan fish",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "cheap-eats",
         "local-secret"
@@ -930,7 +930,7 @@
       "zh": "遇外滩",
       "en": "Yu Waitan",
       "cuisine": "shanghai",
-      "cuisineLabel": "Fujian fine dining",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "date-night",
         "special-occasion"
@@ -1176,7 +1176,7 @@
       "zh": "龙门阵茶屋",
       "en": "Longmen Zhen Teahouse",
       "cuisine": "shanghai",
-      "cuisineLabel": "Modern Sichuan",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "instagrammable",
         "date-night"
@@ -1231,7 +1231,7 @@
       "zh": "花马天堂",
       "en": "Lost Heaven",
       "cuisine": "shanghai",
-      "cuisineLabel": "Yunnan cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "instagrammable",
         "date-night"
@@ -1274,7 +1274,7 @@
       "zh": "惠食佳·朱雀",
       "en": "Huishijia Zhuque",
       "cuisine": "shanghai",
-      "cuisineLabel": "Cantonese with palace decor",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "instagrammable",
         "date-night"
@@ -1508,7 +1508,7 @@
       "zh": "人和馆",
       "en": "Ren He Guan",
       "cuisine": "shanghai",
-      "cuisineLabel": "Michelin Shanghai",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "special-occasion",
         "local-secret"
@@ -1539,7 +1539,7 @@
       "zh": "海金滋",
       "en": "Hai Jin Zi",
       "cuisine": "shanghai",
-      "cuisineLabel": "Shanghai cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "cheap-eats",
         "local-secret"
@@ -1570,7 +1570,7 @@
       "zh": "兰心",
       "en": "Lan Xin Restaurant",
       "cuisine": "shanghai",
-      "cuisineLabel": "Michelin Shanghai",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "local-secret",
         "special-occasion"
@@ -1819,7 +1819,7 @@
       "zh": "火燒雲傣家菜",
       "en": "Huo Shao Yun Dai Cuisine",
       "cuisine": "shanghai",
-      "cuisineLabel": "Yunnan cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "cheap-eats",
         "local-secret"
@@ -2067,7 +2067,7 @@
       "zh": "威皇广福和小海鲜",
       "en": "Weihuang Seafood",
       "cuisine": "shanghai",
-      "cuisineLabel": "Cantonese claypot",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "date-night",
         "local-secret"
@@ -2115,7 +2115,7 @@
       "zh": "湘椒",
       "en": "Xiang Jiao",
       "cuisine": "shanghai",
-      "cuisineLabel": "Hunan cuisine",
+      "cuisineLabel": "Local Favourites",
       "vibe": [
         "cheap-eats",
         "local-secret"
